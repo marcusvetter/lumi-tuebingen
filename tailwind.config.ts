@@ -9,11 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "lumi-white": "#FAFDF6",
-        "lumi-blue": "#A5D9DA",
-        "lumi-yellow": "#FBCB83",
-        "lumi-red": "#FCD1CB",
-        "lumi-green": "#BBE4C6",
+        "lumi-white": "#FFFFFF",
+        "lumi-blue": "#00659A",
+        "lumi-yellow": "#FFEA01",
+        "lumi-red": "#DA251D",
+        "lumi-green": "#9DCD16",
+        "lumi-orange": "#FF9D00",
       },
     }
   },

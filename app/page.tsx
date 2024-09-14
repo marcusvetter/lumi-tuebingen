@@ -6,7 +6,7 @@ export default function Home() {
       <div className="relative flex place-items-center">
         <Image
           className="relative"
-          src="/lumi-train.jpeg"
+          src="/lumi-train.png"
           alt="LUMI Train"
           width={1092}
           height={100}
@@ -17,7 +17,7 @@ export default function Home() {
       <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
           href="#"
-          className="m-2 bg-lumi-blue group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-lumi-blue hover:bg-lumi-white"
+          className="m-2 bg-lumi-white border-2 border-lumi-blue group rounded-lg border px-5 py-4 transition-colors hover:bg-lumi-blue hover:text-white"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Der Tag im LUMI{" "}
@@ -32,7 +32,7 @@ export default function Home() {
 
         <a
           href="#"
-          className="m-2 bg-lumi-red group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-lumi-red hover:bg-lumi-white"
+          className="m-2 bg-lumi-white border-2 border-lumi-red group rounded-lg border px-5 py-4 transition-colors hover:bg-lumi-red hover:text-white"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Unsere Konzeption{" "}
@@ -47,7 +47,7 @@ export default function Home() {
 
         <a
           href="#"
-          className="m-2 bg-lumi-yellow group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-lumi-yellow hover:bg-lumi-white"
+          className="m-2 bg-lumi-white border-2 border-lumi-orange group rounded-lg border px-5 py-4 transition-colors hover:bg-lumi-orange hover:text-white"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Der Weg zu uns{" "}
@@ -62,7 +62,7 @@ export default function Home() {
 
         <a
           href="#"
-          className="m-2 bg-lumi-yellow group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-lumi-yellow hover:bg-lumi-white"
+          className="m-2 bg-lumi-white border-2 border-lumi-yellow group rounded-lg border px-5 py-4 transition-colors hover:bg-lumi-yellow"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Das LUMI Team{" "}
@@ -77,7 +77,7 @@ export default function Home() {
 
         <a
           href="#"
-          className="m-2 bg-lumi-green group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-lumi-green hover:bg-lumi-white"
+          className="m-2 bg-lumi-white border-2 border-lumi-green group rounded-lg border px-5 py-4 transition-colors hover:bg-lumi-green hover:text-white"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Der Verein{" "}
@@ -92,7 +92,7 @@ export default function Home() {
 
         <a
           href="#"
-          className="m-2 bg-lumi-red group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-lumi-red hover:bg-lumi-white"
+          className="m-2 bg-lumi-white border-2 border-lumi-red group rounded-lg border px-5 py-4 transition-colors hover:bg-lumi-red hover:text-white"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Impressum & Datenschutz{" "}

@@ -9,7 +9,6 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "lumi-white": "#FFFFFF",
         "lumi-blue": "#00659A",
         "lumi-yellow": "#FFEA01",
         "lumi-red": "#DA251D",

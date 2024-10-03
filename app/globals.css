@@ -2,15 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 214, 219, 220;
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  @apply bg-lumi-white;
+  /* background-color: @apply bg-green; */
 }
 
 @layer utilities {

@@ -91,7 +91,7 @@ export default function Layout({
                 (2024) Leben mit Kindern e.V.
               </div>
               <div>
-                Made with ❤️ in Dußlingen
+                Made with ❤️ in Tübingen
               </div>
               <div>
                 <Link href={"/impressum"} className="font-semibold">

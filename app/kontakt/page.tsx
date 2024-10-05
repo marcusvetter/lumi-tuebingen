@@ -1,23 +1,25 @@
 export default function Page() {
     return <div>
-        <p className="mb-5">
-            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        </p>
-        <p className="mb-5">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
-        </p>
-        <p className="mb-5">
-            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-        </p>
-        <p className="mb-5">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <p className="mb-5">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-        </p>
+        <h1>Der Weg zu uns & Kontaktaufnahme</h1>
 
-        <p className="mb-5">
-            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-        </p>
+        <p>Haben Sie Interesse daran, Ihr Kind von uns betreuen zu lassen? Das freut uns sehr! Hier sind die Spielregeln:</p>
+
+        <p><strong>Grundvoraussetzung:</strong> Sie müssen bei der Tübinger <em>Zentrale Anmeldestelle Kinderbetreuung</em> (ZAK) angemeldet sein. Die Anmeldung ist Pflicht für alle Kitas und Betreuungsangebote in Tübingen. Sie können sich hier online anmelden: <a href="https://www.tuebingen.de/zak" rel="noopener" target="_blank">https://www.tuebingen.de/zak</a></p>
+
+        <p><strong>Ohne vorherige Anmeldung bei der Zentralen Anmeldestelle können wir keine Betreuungsplätze vergeben!</strong> Bitte kontaktieren Sie uns erst, wenn Sie sich bei der Zentralen Anmeldestelle angemeldet haben.</p>
+
+        <p>Sobald Sie bei der ZAK registriert sind, können Sie uns <strong>per E-Mail</strong> kontaktieren. Bitte senden Sie uns dazu <a href="#impressum">eine E-Mail</a> mit folgenden Infos:</p>
+
+        <ul className="mb-5">
+            <li>- Geburtsdatum des Kindes</li>
+            <li>- Vor- und Nachname des Kindes</li>
+            <li>- Geschlecht des Kindes</li>
+            <li>- Gewünschtes Startdatum für den Betreuungsplatz</li>
+            <li>- Telefonnummer, unter der Sie erreichbar sind</li>
+        </ul>
+
+        <p><strong>Bitte haben Sie Verständnis, dass wir aufgrund der hohen Nachfrage keine telefonischen Anfragen bearbeiten können.</strong></p>
+
+        <p>Wir rufen Sie zurück, sobald wir Ihre E-Mail erhalten haben.</p>
     </div>
 }

@@ -1,22 +1,51 @@
 export default function Page() {
     return <div>
-        <p className="mb-5">
-            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+
+        <h1>
+            Der Tag im LUMI
+        </h1>
+
+        <p>
+            Die Kinder können zwischen 7:39 Uhr und 9 Uhr zu uns gebracht werden.
         </p>
-        <p className="mb-5">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+        <p>
+            Sobald alle Kinder da sind, beginnen wir den Tag gemeinsam im Morgenkreis mit Singen und Musizieren. Dann gibt es ein gemeinsames Frühstück. Im Anschluss daran haben wir viel Zeit zum Spielen und Erleben. Dabei legen wir Wert darauf, so oft es das Wetter zulässt nach draußen zu gehen. Unser kleiner Schrebergarten sowie die ländliche Umgebung bieten hierfür einen sehr schönen Rahmen.
         </p>
-        <p className="mb-5">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+        <p>
+            Nach dem von unserem Koch Richard zubereiteten Mittagessen werden die Kinder zum Mittagsschlaf hingelegt.
         </p>
-        <p className="mb-5">
-            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+        <p>
+            In den Nachmittag starten wir mit einem kleinen Snack. Jetzt haben alle wieder genügend Kraft, um die restliche Zeit zu spielen, toben, basteln, klettern oder schmusen.
         </p>
-        <p className="mb-5">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+
+        <p>
+            Dieser festgelegte zeitliche Rahmen gilt selbstverständlich nur für unsere „Großen“ (1,5 - 3 Jahre). Den sehr spezifischen Bedürfnissen unserer „Kleinen“ (1 - 1,5 Jahre) kommen wir durch einen individuell auf ihren aktuellen Rhythmus abgestimmten Ablauf entgegen. Hier wird gegessen, wenn man hungrig, und geschlafen, wenn man müde ist.
         </p>
-        <p className="mb-5">
-            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+
+        <p>
+            Kochen, Spülen, Waschen, Einkaufen usw. sind Alltagsrealität und können erfahren, nachgeahmt und „mitgemacht“ werden.
         </p>
+
+        <p>
+            Die Kinder können dann zwischen 14:30 und 15 Uhr abgeholt werden.
+        </p>
+
+        <h2>Eingewöhnung und Elterngespräch</h2>
+
+        <p>
+            Eine sanfte und gute Eingewöhnung ist uns sehr wichtig. Wir verwenden viel Zeit darauf, Ihr Kind in kleinen Schritten in die Gruppe einzuführen und die Zeit bei uns langsam zu steigern. Das macht das Ankommen für Ihr Kind leichter und gibt auch Ihnen ein besseres Gefühl, wenn Sie Ihr Kind in fremde Hände geben.
+        </p>
+
+        <p>
+            In der Regel dauert die Eingewöhnung etwa 2-4 Wochen. Ziel der Eingewöhnung ist, dass Ihr Kind Vertrauen zu uns fasst, sich bei uns wohl fühlt und sich bei Auseinandersetzungen von uns trösten lässt.
+        </p>
+
+        <p>
+            Einmal im Jahr führen wir ein ausführliches Entwicklungsgespräch. Wir legen außerdem großen Wert auf kurze Gespräche zwischen Tür und Angel.
+        </p>
+
     </div>
 }

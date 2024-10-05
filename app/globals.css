@@ -3,11 +3,25 @@
 @tailwind utilities;
 
 body {
-  /* background-color: @apply bg-green; */
+  background-color: #f1f1f1;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer base {
+  p {
+    @apply mb-5;
+  }
+
+  h1 {
+    @apply font-bold text-2xl mb-5;
+  }
+
+  h2 {
+    @apply font-bold text-xl mt-10 mb-5;
   }
 }

@@ -14,7 +14,7 @@ export default function Home() {
       <p>LUMI ist eine Tagesspielgruppe / Kita in Tübingen für Kinder im Alter von 1-3 Jahren.</p>
 
       <div className="bg-lumi-blue text-white rounded-lg p-4">
-        Wir laden alle interessierten Eltern mit ihren Kindern am Donnerstag, den <strong>23. Januar von 15:15 Uhr bis 16:15 Uhr</strong> zu uns ins Lumi ein. Wir bitten um vorherige Anmeldung per Mail (info at lumi-tuebingen punkt de) und freuen uns auf einen informativen Nachmittag.
+        Wir laden alle interessierten Eltern mit ihren Kindern am Donnerstag, den <strong>23. Januar von 15:15 Uhr bis 16:15 Uhr</strong> zu uns ins LUMI ein.<br />Wir bitten um vorherige Anmeldung per Mail (info at lumi-tuebingen punkt de) und freuen uns auf einen informativen Nachmittag.
       </div>
 
       <h2>Für einen starken Start ins Leben! Unser Angebot</h2>

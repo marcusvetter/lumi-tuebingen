@@ -4,7 +4,8 @@ export default function Page() {
 
         <p>LUMI – Leben mit Kindern e.V.</p>
 
-        <p><strong>Postanschrift:</strong>
+        <p><strong>Postanschrift:</strong></p>
+        <p>
             Nürtingerstraße 21/1<br />
             72074 Tübingen</p>
 

@@ -28,7 +28,7 @@ export default function Page() {
             In den Nachmittag starten wir mit einem kleinen Snack. Jetzt haben alle wieder genügend Kraft, um die restliche Zeit zu spielen, toben, basteln, klettern oder schmusen.
         </p>
         <p>
-            Kochen, Spülen, Waschen, Einkaufen usw. sind Alltagsrealität und können im gesamten Alltagablauf erfahren, nachgeahmt und "mitgemacht" werden.
+            Kochen, Spülen, Waschen, Einkaufen usw. sind Alltagsrealität und können im gesamten Alltagablauf erfahren, nachgeahmt und &quot;mitgemacht&quot; werden.
         </p>
         <p>
             Die Nachmittagskinder werden zwischen 14:30 Uhr und 15:00 Uhr abgeholt.
@@ -38,7 +38,7 @@ export default function Page() {
             Eingewöhnung und Elterngespräch
         </h2>
         <p>
-            Eine sanfte und gute Eingewöhnung ist uns sehr wichtig. Wir verwenden viel Zeit darauf, euer Kind in kleinen Schritten in die Gruppe einzuführen und die Zeit bei uns langsam zu steigern. Das erleichtert eurem Kind das Ankommen und gibt auch euch ein besseres Gefühl, das Kind nicht mehr in "gänzlich fremde Hände" zu übergeben.
+            Eine sanfte und gute Eingewöhnung ist uns sehr wichtig. Wir verwenden viel Zeit darauf, euer Kind in kleinen Schritten in die Gruppe einzuführen und die Zeit bei uns langsam zu steigern. Das erleichtert eurem Kind das Ankommen und gibt auch euch ein besseres Gefühl, das Kind nicht mehr in &quot;gänzlich fremde Hände&quot; zu übergeben.
         </p>
         <p>
             In der Regel dauert die Eingewöhnung vier bis sechs Wochen. Dann bleiben die meisten Kinder bis nach dem Mittagessen um 12:30 Uhr. Ab wann wir ein Kind nach der Eingewöhnung bei uns schlafen legen, hängt von der Befindlichkeit der jeweiligen Kinder sowie eurem Betreuungsbedarf ab.

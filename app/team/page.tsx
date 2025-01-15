@@ -1,10 +1,11 @@
 export default function Page() {
     return <div>
         <h1>Das LUMI Team</h1>
-        <p><b>Lisa Rosenkranz</b> (Vereinsvorstand, Leitung)</p>
-        <p><b>Christine Böpple</b></p>
-        <p><b>Eve Fiedler</b></p>
-        <p><b>Leila Wolfsperger</b></p>
-        <p><b>Sofía Prado</b></p>
+        <p><strong>Lisa Rosenkranz</strong> (Vereinsvorstand, Leitung)</p>
+        <p><strong>Christine Böpple</strong></p>
+        <p><strong>Eve Fiedler</strong></p>
+        <p><strong>Leila Wolfsperger</strong></p>
+        <p><strong>Sofía Prado</strong></p>
+        <p><strong>Katrin Irmler</strong></p>
     </div>
 }

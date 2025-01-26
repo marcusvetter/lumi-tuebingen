@@ -10,39 +10,28 @@ export default function Home() {
   return (
     <div>
       <h1>Herzlich Willkommen bei der Kindertageseinrichtung LUMI – Leben mit Kindern e. V.</h1>
-
       <p>LUMI ist eine Tagesspielgruppe / Kita in Tübingen für Kinder im Alter von 1-3 Jahren.</p>
 
-      <div className="bg-lumi-blue text-white rounded-lg p-4">
-        Wir laden alle interessierten Eltern mit ihren Kindern am Donnerstag, den <strong>23. Januar von 15:15 Uhr bis 16:15 Uhr</strong> zu uns ins LUMI ein.<br />Wir bitten um vorherige Anmeldung per Mail (info at lumi-tuebingen punkt de) und freuen uns auf einen informativen Nachmittag.
-      </div>
+      {/* <div className="bg-lumi-blue text-white rounded-lg p-4">
+        Highlighted text, if needed
+      </div> */}
 
       <h2>Für einen starken Start ins Leben! Unser Angebot</h2>
-
-      <ul>
+      <ul className="list-disc list-inside">
         <li>eine liebevolle und individuelle Betreuung in einer kleinen Gruppe</li>
         <li>eine vertrauensvolle Atmosphäre in einer kleinkindgerechten Umgebung</li>
         <li>viel Zeit zum Herumtollen und Spielen drinnen und draußen</li>
         <li>ein schöner Garten am Österberg zum Werkeln und Matschen</li>
       </ul>
 
-      <h2>Zeiten und Preise</h2>
-
-      <p>Wir bieten eine ganztägige Betreuung für Kinder von 1-3 Jahren. Unser Konzept kombiniert die Betreuung in der Spielgruppe und der Kindertagespflege.</p>
-
       <h2>Öffnungszeiten</h2>
-
       <p><strong>Mo-Do:</strong> 7:30 Uhr bis 15:00 Uhr<br />
         <strong>Fr:</strong> 7:30 Uhr bis 12:30 Uhr</p>
 
-      <h3>Kosten</h3>
-
-      <p>Die Gebühren für die Spielgruppe richten sich nach der städtischen Gebührenstaffel und werden nach Höhe des Einkommens berechnet. Mehr Informationen dazu finden Sie hier: <a href="https://www.tuebingen.de/23417.html#/23484">www.tuebingen.de/23417.html#/23484</a></p>
-
-      <p>Dazu kommen noch folgende Gebühren:<br />
-        Kindertagespflege (einkommensabhängig), max. 1,90€ pro Stunde<br />
-        Vereinsgebühr von 25€ pro Jahr (ganze Familie)</p>
-
+      <h2>Der Verein – Leben mit Kindern e.V.</h2>
+      <p>
+        Träger der Einrichtung ist der Verein <em>LUMI – Leben mit Kindern e.V.</em>. Voraussetzung für eine Betreuung im LUMI ist der Beitritt in den Verein. Die Vereinsgebühr beträgt 25€ pro Jahr (ganze Familie).
+      </p>
     </div>
   );
 }

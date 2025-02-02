@@ -24,7 +24,7 @@ export default function Layout({
               <div className="col-span-2 sm:col-span-5">
                 <Link href={'/'}>
                   <Image
-                    src="/lumi-train.jpg"
+                    src="/lumi-train.jpeg"
                     alt="LUMI Train"
                     width={1092}
                     height={100}

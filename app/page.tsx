@@ -9,8 +9,8 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Herzlich Willkommen bei der Kindertageseinrichtung LUMI – Leben mit Kindern e. V.</h1>
-      <p>LUMI ist eine Tagesspielgruppe / Kita in Tübingen für Kinder im Alter von 1-3 Jahren.</p>
+      <h1>Herzlich Willkommen im LUMI!</h1>
+      <p>LUMI ist eine Krippengruppe in Tübingen für Kinder im Alter von 1-3 Jahren.</p>
 
       {/* <div className="bg-lumi-blue text-white rounded-lg p-4">
         Highlighted text, if needed
@@ -30,7 +30,8 @@ export default function Home() {
 
       <h2>Der Verein – Leben mit Kindern e.V.</h2>
       <p>
-        Träger der Einrichtung ist der Verein <em>LUMI – Leben mit Kindern e.V.</em>. Voraussetzung für eine Betreuung im LUMI ist der Beitritt in den Verein. Die Vereinsgebühr beträgt 25€ pro Jahr (ganze Familie).
+        Träger der Einrichtung ist der Verein <em>LUMI – Leben mit Kindern e.V.</em>.<br />
+        Voraussetzung für eine Betreuung im LUMI ist der Beitritt in den Verein. Die Vereinsgebühr beträgt 25€ pro Jahr (ganze Familie).
       </p>
     </div>
   );

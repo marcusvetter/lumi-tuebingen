@@ -16,12 +16,12 @@ export default function Layout({
   return (
     <html lang="en">
       <body className="grid justify-items-center overflow-y-scroll min-h-screen">
-        <div className="max-w-screen-lg bg-white sm:my-8 flex flex-col">
+        <div className="max-w-screen-lg bg-white lg:my-8 flex flex-col">
           <div className="w-full h-1 bg-gradient-to-r from-lumi-blue/70 via-lumi-red/70 to-lumi-green/70"></div>
-          <div className="px-4 sm:px-8 pt-4 sm:pt-8 grow">
-            <nav className="grid grid-cols-2 sm:grid-cols-5 mb-8">
+          <div className="px-4 lg:px-8 pt-4 lg:pt-8 grow">
+            <nav className="grid grid-cols-2 lg:grid-cols-5 mb-8">
 
-              <div className="col-span-2 sm:col-span-5">
+              <div className="col-span-2 lg:col-span-5">
                 <Link href={'/'}>
                   <Image
                     src="/lumi-train.jpeg"
@@ -33,8 +33,8 @@ export default function Layout({
                 </Link>
               </div>
 
-              <Link href={`/tagesablauf`} className={`link m-1 sm:m-2 p-2 sm:px-5 sm:py-4 border-2 border-lumi-blue rounded-lg hover:bg-lumi-blue hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/tagesablauf` ? `bg-lumi-blue text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`sm:mb-3 text-xl sm:text-2xl font-semibold`}>
+              <Link href={`/tagesablauf`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-blue rounded-lg hover:bg-lumi-blue hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/tagesablauf` ? `bg-lumi-blue text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
+                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
                   Der Tag im LUMI
                 </div>
                 <div className={`text-sm opacity-50`}>
@@ -42,8 +42,8 @@ export default function Layout({
                 </div>
               </Link>
 
-              <Link href={`/konzeption`} className={`link m-1 sm:m-2 p-2 sm:px-5 sm:py-4 border-2 border-lumi-red rounded-lg hover:bg-lumi-red hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/konzeption` ? `bg-lumi-red text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`sm:mb-3 text-xl sm:text-2xl font-semibold`}>
+              <Link href={`/konzeption`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-red rounded-lg hover:bg-lumi-red hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/konzeption` ? `bg-lumi-red text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
+                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
                   Unsere Konzeption
                 </div>
                 <div className={`text-sm opacity-50`}>
@@ -51,8 +51,8 @@ export default function Layout({
                 </div>
               </Link>
 
-              <Link href={`/kontakt`} className={`link m-1 sm:m-2 p-2 sm:px-5 sm:py-4 border-2 border-lumi-yellow rounded-lg hover:bg-lumi-yellow transition-transform duration-200 hover:-translate-y-1 ${pathname === `/kontakt` ? `bg-lumi-yellow -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`sm:mb-3 text-xl sm:text-2xl font-semibold`}>
+              <Link href={`/kontakt`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-yellow rounded-lg hover:bg-lumi-yellow transition-transform duration-200 hover:-translate-y-1 ${pathname === `/kontakt` ? `bg-lumi-yellow -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
+                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
                   Der Weg zu uns
                 </div>
                 <div className={`text-sm opacity-50`}>
@@ -60,8 +60,8 @@ export default function Layout({
                 </div>
               </Link>
 
-              <Link href={`/team`} className={`link m-1 sm:m-2 p-2 sm:px-5 sm:py-4 border-2 border-lumi-orange rounded-lg hover:bg-lumi-orange hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/team` ? `bg-lumi-orange text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`sm:mb-3 text-xl sm:text-2xl font-semibold`}>
+              <Link href={`/team`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-orange rounded-lg hover:bg-lumi-orange hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/team` ? `bg-lumi-orange text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
+                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
                   Das LUMI Team
                 </div>
                 <div className={`text-sm opacity-50`}>
@@ -69,8 +69,8 @@ export default function Layout({
                 </div>
               </Link>
 
-              <Link href={`/verein`} className={`link m-1 sm:m-2 p-2 sm:px-5 sm:py-4 border-2 border-lumi-green rounded-lg hover:bg-lumi-green hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/verein` ? `bg-lumi-green text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`sm:mb-3 text-xl sm:text-2xl font-semibold`}>
+              <Link href={`/verein`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-green rounded-lg hover:bg-lumi-green hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/verein` ? `bg-lumi-green text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
+                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
                   Der Verein
                 </div>
                 <div className={`text-sm opacity-50`}>
@@ -86,9 +86,11 @@ export default function Layout({
           </div>
           <footer className="w-full mt-12">
             <div className="w-full h-1 bg-gradient-to-r from-lumi-green/70 via-lumi-red/70 to-lumi-blue/70"></div>
-            <div className="py-4 grid grid-cols-1 space-y-4 sm:space-y-0 sm:grid-cols-3 place-content-between text-center">
+            <div className="py-4 grid grid-cols-1 space-y-4 lg:space-y-0 lg:grid-cols-3 place-content-between text-center">
               <div>
-                Leben mit Kindern e.V.
+                <Link href={'/'} className="font-semibold">
+                  Leben mit Kindern e.V.
+                </Link>
               </div>
               <div>
                 Made with ❤️ in Tübingen

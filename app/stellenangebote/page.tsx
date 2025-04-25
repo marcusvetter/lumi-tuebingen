@@ -1,6 +1,6 @@
 export default function Page() {
     return <div>
-        <h2>Pädagogische Fachkraft</h2>
+        <h1>Pädagogische Fachkraft</h1>
 
         <p>Wir suchen pädagogische Fachkräfte (m/w/d) in Voll- und Teilzeit.</p>
         <p>

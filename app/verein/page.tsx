@@ -11,7 +11,7 @@ export default function Page() {
         </p>
 
         <h2>Vorstand</h2>
-        <ul className="list-disc list-inside">
+        <ul>
             <li>Alexander Wiethüchter</li>
             <li>Lisa Rosenkranz</li>
             <li>Daniela Schmalz</li>

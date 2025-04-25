@@ -8,14 +8,14 @@ export default function Page() {
 
         <p><strong>Ohne vorherige Anmeldung bei der Zentralen Anmeldestelle können wir keine Betreuungsplätze vergeben!</strong> Bitte kontaktieren Sie uns erst, wenn Sie sich bei der Zentralen Anmeldestelle angemeldet haben.</p>
 
-        <p>Sobald Sie bei der ZAK registriert sind, können Sie uns <strong>per E-Mail</strong> kontaktieren. Bitte senden Sie uns dazu <a href="#impressum">eine E-Mail</a> mit folgenden Infos:</p>
+        <p>Sobald Sie bei der ZAK registriert sind, können Sie uns <strong>per E-Mail</strong> kontaktieren. Bitte senden Sie uns dazu eine E-Mail mit folgenden Infos:</p>
 
         <ul className="mb-5">
-            <li>- Geburtsdatum des Kindes</li>
-            <li>- Vor- und Nachname des Kindes</li>
-            <li>- Geschlecht des Kindes</li>
-            <li>- Gewünschtes Startdatum für den Betreuungsplatz</li>
-            <li>- Telefonnummer, unter der Sie erreichbar sind</li>
+            <li>Geburtsdatum des Kindes</li>
+            <li>Vor- und Nachname des Kindes</li>
+            <li>Geschlecht des Kindes</li>
+            <li>Gewünschtes Startdatum für den Betreuungsplatz</li>
+            <li>Telefonnummer, unter der Sie erreichbar sind</li>
         </ul>
 
         <p><strong>Bitte haben Sie Verständnis, dass wir aufgrund der hohen Nachfrage keine telefonischen Anfragen bearbeiten können.</strong></p>
@@ -26,11 +26,13 @@ export default function Page() {
 
         <h2>Unsere Anschrift</h2>
         <p>
-            LUMI – Leben mit Kindern e.V.<br />
+            LUMI - Leben mit Kindern e.V.<br />
             Nürtingerstraße 21/1<br />
-            72074 Tübingen</p>
-
-        <p>Telefon: 0172-9794482<br />
-            E-Mail: info at lumi-tuebingen punkt de</p>
+            72074 Tübingen
+        </p>
+        <p>
+            Telefon: 0172-9794482<br />
+            E-Mail: info at lumi-tuebingen punkt de
+        </p>
     </div>
 }

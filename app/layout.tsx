@@ -38,16 +38,7 @@ export default function Layout({
                   Der Tag im LUMI
                 </div>
                 <div className={`text-sm opacity-50`}>
-                  Das ist unser Tagesablauf.
-                </div>
-              </Link>
-
-              <Link href={`/konzeption`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-red rounded-lg hover:bg-lumi-red hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/konzeption` ? `bg-lumi-red text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
-                  Unsere Konzeption
-                </div>
-                <div className={`text-sm opacity-50`}>
-                  Diese Konzepte haben wir im LUMI.
+                  Unser Tagesablauf & die LUMI Konzeption
                 </div>
               </Link>
 
@@ -75,6 +66,15 @@ export default function Layout({
                 </div>
                 <div className={`text-sm opacity-50`}>
                   Leben mit Kindern e.V. - der Verein des LUMIs
+                </div>
+              </Link>
+
+              <Link href={`/stellenangebote`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-red rounded-lg hover:bg-lumi-red hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/stellenangebote` ? `bg-lumi-red text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
+                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
+                  Unsere Stellen&shy;angebote
+                </div>
+                <div className={`text-sm opacity-50`}>
+                  Werde Teil des LUMIs!
                 </div>
               </Link>
 

@@ -1,7 +1,7 @@
 export default function Page() {
     return <div>
         <h1>Das LUMI Team</h1>
-        <ul className="list-disc list-inside">
+        <ul>
             <li>Lisa Rosenkranz</li>
             <li>Anne Martin</li>
             <li>Christine Böpple</li>

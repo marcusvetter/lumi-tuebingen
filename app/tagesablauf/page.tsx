@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Page() {
     return <div>
         <h1>
@@ -44,6 +46,15 @@ export default function Page() {
             In der Regel dauert die Eingewöhnung vier bis sechs Wochen. Dann bleiben die meisten Kinder bis nach dem Mittagessen um 12:30 Uhr. Ab wann wir ein Kind nach der Eingewöhnung bei uns schlafen legen, hängt von der Befindlichkeit der jeweiligen Kinder sowie eurem Betreuungsbedarf ab.
         </p><p>
             Einmal im Jahr führen wir ein ausführliches Entwicklungsgespräch. Wir legen außerdem großen Wert auf kurze Gespräche zwischen Tür und Angel. Bei Bedarf erhöhen wir selbstverständlich die Frequenz der Gespräche.
+        </p>
+
+        <h2>
+            Unsere Konzeption
+        </h2>
+        <p>
+            <Link className="underline" target='_blank' href={'/konzeption.pdf'} prefetch={false}>
+                Download als PDF
+            </Link>
         </p>
     </div>
 }

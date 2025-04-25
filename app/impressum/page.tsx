@@ -2,7 +2,7 @@ export default function Page() {
     return <div>
         <p><strong>Angaben gemäß § 5 TMG:</strong></p>
 
-        <p>LUMI – Leben mit Kindern e.V.</p>
+        <p>LUMI - Leben mit Kindern e.V.</p>
 
         <p><strong>Postanschrift:</strong></p>
         <p>

@@ -21,5 +21,16 @@ export default function Page() {
         <p><strong>Bitte haben Sie Verständnis, dass wir aufgrund der hohen Nachfrage keine telefonischen Anfragen bearbeiten können.</strong></p>
 
         <p>Wir rufen Sie zurück, sobald wir Ihre E-Mail erhalten haben.</p>
+
+        <p></p>
+
+        <h2>Unsere Anschrift</h2>
+        <p>
+            LUMI – Leben mit Kindern e.V.<br />
+            Nürtingerstraße 21/1<br />
+            72074 Tübingen</p>
+
+        <p>Telefon: 0172-9794482<br />
+            E-Mail: info at lumi-tuebingen punkt de</p>
     </div>
 }

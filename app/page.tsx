@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "LUMI – Leben mit Kindern e.V.",
+  title: "LUMI - Leben mit Kindern e.V.",
   description: "LUMI",
 };
 
@@ -17,7 +17,7 @@ export default function Home() {
       </div> */}
 
       <h2>Für einen starken Start ins Leben! Unser Angebot</h2>
-      <ul className="list-disc list-inside">
+      <ul>
         <li>eine liebevolle und individuelle Betreuung in einer kleinen Gruppe</li>
         <li>eine vertrauensvolle Atmosphäre in einer kleinkindgerechten Umgebung</li>
         <li>viel Zeit zum Herumtollen und Spielen drinnen und draußen</li>
@@ -28,9 +28,9 @@ export default function Home() {
       <p><strong>Mo-Do:</strong> 7:30 Uhr bis 15:00 Uhr<br />
         <strong>Fr:</strong> 7:30 Uhr bis 12:30 Uhr</p>
 
-      <h2>Der Verein – Leben mit Kindern e.V.</h2>
+      <h2>Der Verein - Leben mit Kindern e.V.</h2>
       <p>
-        Träger der Einrichtung ist der Verein <em>LUMI – Leben mit Kindern e.V.</em>.<br />
+        Träger der Einrichtung ist der Verein <em>LUMI - Leben mit Kindern e.V.</em>.<br />
         Voraussetzung für eine Betreuung im LUMI ist der Beitritt in den Verein. Die Vereinsgebühr beträgt 25€ pro Jahr (ganze Familie).
       </p>
     </div>

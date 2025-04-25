@@ -74,7 +74,7 @@ export default function Layout({
                   Unsere Stellen&shy;angebote
                 </div>
                 <div className={`text-sm opacity-50`}>
-                  Werde Teil des LUMIs!
+                  Werde Teil des LUMI Teams!
                 </div>
               </Link>
 

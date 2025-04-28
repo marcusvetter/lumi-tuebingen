@@ -28,16 +28,7 @@ export default function Page() {
         </p>
         <p>
             Wenn wir Dein Interesse geweckt haben und Du Teil des LUMI-Teams werden
-            möchtest, freuen wir uns sehr auf Deine Bewerbung, gerne per Mail, an:
-        </p>
-        <p>
-            LUMI - Leben mit Kindern e.V.<br />
-            Nürtingerstraße 21/1<br />
-            72074 Tübingen
-        </p>
-        <p>
-            Telefon: 0172-9794482<br />
-            E-Mail: info at lumi-tuebingen punkt de
+            möchtest, freuen wir uns sehr auf Deine Bewerbung, gerne per Mail, an: info at lumi-tuebingen punkt de
         </p>
 
         <h2>Aushilfskräfte</h2>
@@ -65,16 +56,7 @@ export default function Page() {
         </p>
         <p>
             Wenn wir Dein Interesse geweckt haben und Du Teil des LUMI-Teams werden
-            möchtest, freuen wir uns sehr auf Deine Bewerbung, gerne per Mail, an:
-        </p>
-        <p>
-            LUMI - Leben mit Kindern e.V.<br />
-            Nürtingerstraße 21/1<br />
-            72074 Tübingen
-        </p>
-        <p>
-            Telefon: 0172-9794482<br />
-            E-Mail: info at lumi-tuebingen punkt de
+            möchtest, freuen wir uns sehr auf Deine Bewerbung, gerne per Mail, an: info at lumi-tuebingen punkt de
         </p>
 
         <h2>FSJ (freiwilliges soziales Jahr)</h2>

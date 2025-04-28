@@ -6,13 +6,16 @@ export default function Page() {
 
         <p><strong>Postanschrift:</strong></p>
         <p>
-            Nürtingerstraße 21/1<br />
+            Nürtingerstraße 21<br />
             72074 Tübingen</p>
 
         <p><strong>Kontakt:</strong></p>
-
-        <p>Telefon: 0172-9794482<br />
-            E-Mail: info at lumi-tuebingen punkt de</p>
+        <p>
+            Büro: 07071 / 770 43 70<br />
+            Gruppe: 07071 / 770 43 71<br />
+            Mobil: 0172 / 979 44 82<br />
+            E-Mail: info at lumi-tuebingen punkt de
+        </p>
 
         <p><strong>Vertreten durch:</strong></p>
 

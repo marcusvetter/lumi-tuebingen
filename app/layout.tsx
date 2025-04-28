@@ -84,7 +84,7 @@ export default function Layout({
               {children}
             </main>
           </div>
-          <footer className="w-full mt-12">
+          <footer className="w-full mt-12 mb-12 lg:mb-0">
             <div className="w-full h-1 bg-gradient-to-r from-lumi-green/70 via-lumi-red/70 to-lumi-blue/70"></div>
             <div className="py-4 grid grid-cols-1 space-y-4 lg:space-y-0 lg:grid-cols-3 place-content-between text-center">
               <div>

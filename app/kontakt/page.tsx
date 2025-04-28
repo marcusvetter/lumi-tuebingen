@@ -27,11 +27,13 @@ export default function Page() {
         <h2>Unsere Anschrift</h2>
         <p>
             LUMI - Leben mit Kindern e.V.<br />
-            Nürtingerstraße 21/1<br />
+            Nürtingerstraße 21<br />
             72074 Tübingen
         </p>
         <p>
-            Telefon: 0172-9794482<br />
+            Büro: 07071 / 770 43 70<br />
+            Gruppe: 07071 / 770 43 71<br />
+            Mobil: 0172 / 979 44 82<br />
             E-Mail: info at lumi-tuebingen punkt de
         </p>
     </div>

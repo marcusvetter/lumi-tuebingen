@@ -1,6 +1,6 @@
 export default function Page() {
     return <div>
-        <h1>Der Weg zu uns & Kontaktaufnahme</h1>
+        <h1>Der Weg zu uns</h1>
 
         <p>Haben Sie Interesse daran, Ihr Kind von uns betreuen zu lassen? Das freut uns sehr! Hier sind die Spielregeln:</p>
 

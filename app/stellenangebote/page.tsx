@@ -1,6 +1,8 @@
 export default function Page() {
     return <div>
-        <h1>Pädagogische Fachkraft</h1>
+        <h1>Unsere Stellenangebote</h1>
+
+        {/* <h2>Pädagogische Fachkraft</h2>
 
         <p>Wir suchen pädagogische Fachkräfte (m/w/d) in Voll- und Teilzeit.</p>
         <p>
@@ -29,7 +31,7 @@ export default function Page() {
         <p>
             Wenn wir Dein Interesse geweckt haben und Du Teil des LUMI-Teams werden
             möchtest, freuen wir uns sehr auf Deine Bewerbung, gerne per Mail, an: info at lumi-tuebingen punkt de
-        </p>
+        </p> */}
 
         <h2>Aushilfskräfte</h2>
         <p>

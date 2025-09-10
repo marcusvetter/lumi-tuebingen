@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --color-lumi-blue: #00659A;
+  --color-lumi-yellow: #FFEA01;
+  --color-lumi-red: #DA251D;
+  --color-lumi-green: #9DCD16;
+  --color-lumi-orange: #FF9D00;
+}
+
 body {
   background-color: #f1f1f1;
 }

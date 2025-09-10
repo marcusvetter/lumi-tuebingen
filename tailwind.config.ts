@@ -8,13 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        "lumi-blue": "#00659A",
-        "lumi-yellow": "#FFEA01",
-        "lumi-red": "#DA251D",
-        "lumi-green": "#9DCD16",
-        "lumi-orange": "#FF9D00",
-      },
     }
   },
   plugins: [],

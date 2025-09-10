@@ -7,7 +7,6 @@ export default function Page() {
             <li>Christine Böpple</li>
             <li>Eve Fiedler</li>
             <li>Leila Wolfsperger</li>
-            <li>Sofía Prado</li>
             <li>Katrin Irmler</li>
             <li>Marlo D`apolito</li>
         </ul>

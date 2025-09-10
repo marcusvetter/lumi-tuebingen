@@ -38,7 +38,7 @@ export default function Page() {
             Wir suchen immer wieder Aushilfskräfte für unsere Einrichtung, die uns bei der Arbeit
             mit den Kindern unterstützen.
         </p>
-        <p>
+        <div className="mb-6">
             <u>Du passt zu uns, wenn Du:</u>
             <ul>
                 <li>Lust hast, mit Kindern von 1 bis 3 Jahren zu arbeiten</li>
@@ -47,15 +47,15 @@ export default function Page() {
                 <li>Spontan, motiviert und flexibel bist</li>
                 <li>Gerne draußen bist und Lastenrad fahren kannst</li>
             </ul>
-        </p>
-        <p>
+        </div>
+        <div className="mb-6">
             <u>Wir bieten Dir:</u>
             <ul>
                 <li>eine Aushilfstätigkeit auf Basis der steuerfreien Übungsleiterpauschale</li>
                 <li>Einsätze flexibel nach Absprache</li>
                 <li>viele Einblicke in den pädagogischen Alltag</li>
             </ul>
-        </p>
+        </div>
         <p>
             Wenn wir Dein Interesse geweckt haben und Du Teil des LUMI-Teams werden
             möchtest, freuen wir uns sehr auf Deine Bewerbung, gerne per Mail, an: info at lumi-tuebingen punkt de

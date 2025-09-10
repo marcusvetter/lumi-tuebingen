@@ -16,8 +16,8 @@ export default function Layout({
   return (
     <html lang="en">
       <body className="grid justify-items-center overflow-y-scroll min-h-screen">
-        <div className="max-w-screen-lg bg-white lg:my-8 flex flex-col">
-          <div className="w-full h-1 bg-gradient-to-r from-lumi-blue/70 via-lumi-red/70 to-lumi-green/70"></div>
+        <div className="max-w-(--breakpoint-lg) bg-white lg:my-8 flex flex-col">
+          <div className="w-full h-1 bg-linear-to-r from-lumi-blue/70 via-lumi-red/70 to-lumi-green/70"></div>
           <div className="px-4 lg:px-8 pt-4 lg:pt-8 grow">
             <nav className="grid grid-cols-2 lg:grid-cols-5 mb-8">
 
@@ -85,7 +85,7 @@ export default function Layout({
             </main>
           </div>
           <footer className="w-full mt-12 mb-12 lg:mb-0">
-            <div className="w-full h-1 bg-gradient-to-r from-lumi-green/70 via-lumi-red/70 to-lumi-blue/70"></div>
+            <div className="w-full h-1 bg-linear-to-r from-lumi-green/70 via-lumi-red/70 to-lumi-blue/70"></div>
             <div className="py-4 grid grid-cols-1 space-y-4 lg:space-y-0 lg:grid-cols-3 place-content-between text-center">
               <div>
                 <Link href={'/'} className="font-semibold">

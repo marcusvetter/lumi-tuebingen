@@ -33,7 +33,7 @@ export default function Page() {
             möchtest, freuen wir uns sehr auf Deine Bewerbung, gerne per Mail, an: info at lumi-tuebingen punkt de
         </p> */}
 
-        <h2>Aushilfskräfte</h2>
+        {/* <h2>Aushilfskräfte</h2>
         <p>
             Wir suchen immer wieder Aushilfskräfte für unsere Einrichtung, die uns bei der Arbeit
             mit den Kindern unterstützen.
@@ -75,6 +75,6 @@ export default function Page() {
         </p>
         <p>
             Frag einfach direkt bei uns an, ob wir derzeit bzw. für deinen benötigten Zeitraum Kapazitäten frei haben.
-        </p>
+        </p> */}
     </div>
 }

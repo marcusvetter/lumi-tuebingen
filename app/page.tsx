@@ -12,11 +12,11 @@ export default function Home() {
       <h1>Herzlich Willkommen im LUMI!</h1>
       <p>LUMI ist eine Krippengruppe in Tübingen für Kinder im Alter von 1-3 Jahren.</p>
 
-      <div className="bg-lumi-blue text-white rounded-lg p-4">
+      {/* <div className="bg-lumi-blue text-white rounded-lg p-4">
         <strong>Einladung zur Infoveranstaltung</strong><br /><br />
         Am <strong>22. Januar 2026</strong> um <strong>15:30 Uhr</strong> laden wir alle interessierten Familien herzlich zu unserer Infoveranstaltung ein. Die Veranstaltung dauert ungefähr eine Stunde. Wir freuen uns auf einen schönen Austausch und ein erstes Kennenlernen im LUMI.<br /><br />
         Anmeldungen bitte per E-Mail an Anne Martin: leitung[at]lumi-tuebingen[punkt]de
-      </div>
+      </div> */}
 
       <h2>Für einen starken Start ins Leben! Unser Angebot</h2>
       <ul>

@@ -77,7 +77,7 @@ export default function PdfViewer({ pdfPath, title }: PdfViewerProps) {
       <div className="relative">
         <div className="aspect-[1/1.414] bg-gray-100">
           <iframe
-            src={pdfPath}
+            src={`${pdfPath}#toolbar=0&nav=0&view=FitH`}
             className="w-full h-full border-0 pointer-events-none"
             title={title || "PDF Vorschau"}
             tabIndex={-1}

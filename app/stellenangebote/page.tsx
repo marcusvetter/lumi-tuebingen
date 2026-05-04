@@ -1,37 +1,14 @@
+import PdfViewer from "../components/PdfViewer"
+
 export default function Page() {
     return <div>
         <h1>Unsere Stellenangebote</h1>
 
-        {/* <h2>Pädagogische Fachkraft</h2>
-
-        <p>Wir suchen pädagogische Fachkräfte (m/w/d) in Voll- und Teilzeit.</p>
-        <p>
-            <u>Du passt zu uns, wenn Du:</u>
-            <ul>
-                <li>staatlich anerkannte/r Erzieher/in (m/w/d) bist oder einen vergleichbaren Abschluss hast</li>
-                <li>Dir vorstellen kannst im Zeitfenster von 7:30 bis 15:00 Uhr in wöchentlich wechselnden Schichten zu arbeiten</li>
-                <li>Lust hast, Dich in ein Team zu integrieren und Deine Arbeit eigenverantwortlich zu gestalten</li>
-                <li>bereit bist, Eingewöhnungen durchzuführen, für und mit Deinen künftigen Bezugskindern Portfolios zu gestalten und Elterngespräche zu führen</li>
-                <li>Freude daran hast, altersentsprechende Aktivitäten zu planen und durchzuführen</li>
-                <li>bereit bist, Dich in regelmäßig stattfindenden Teamsitzungen aktiv einzubringen</li>
-                <li>Dich mit unserem Konzept und unseren Schwerpunkten identifizieren kannst</li>
-                <li>Donnerstags von 15.00Uhr bis 17.00Uhr Zeit für ein gemeinsames Team hast</li>
-            </ul>
-        </p>
-        <p>
-            <u>Wir bieten Dir:</u>
-            <ul>
-                <li>ein offenes, starkes und engagiertes Gesamtteam von 7 Personen</li>
-                <li>großen Gestaltungsspielraum der pädagogischen Arbeit und des Gruppenalltags</li>
-                <li>eigenverantwortliche Gestaltung der Verfügungszeit</li>
-                <li>Bezahlung in Anlehnung an den TVöD und eine betriebliche Altersvorsorge</li>
-                <li>Teamfortbildungen, pädagogische Tage und Weiterbildungsmöglichkeiten</li>
-            </ul>
-        </p>
-        <p>
-            Wenn wir Dein Interesse geweckt haben und Du Teil des LUMI-Teams werden
-            möchtest, freuen wir uns sehr auf Deine Bewerbung, gerne per Mail, an: info at lumi-tuebingen punkt de
-        </p> */}
+        <div className="max-w-2xl mb-8">
+            <PdfViewer
+                pdfPath="/Paedagogische_Fachkraft_(mwd)_gesucht.pdf"
+            />
+        </div>
 
         {/* <h2>Aushilfskräfte</h2>
         <p>

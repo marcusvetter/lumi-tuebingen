@@ -20,7 +20,7 @@ export default function Layout({
         <div className="max-w-(--breakpoint-lg) bg-white lg:my-8 flex flex-col">
           <div className="w-full h-1 bg-linear-to-r from-lumi-blue/70 via-lumi-red/70 to-lumi-green/70"></div>
           <div className="px-4 lg:px-8 pt-4 lg:pt-8 grow">
-            <nav className="grid grid-cols-2 lg:grid-cols-4 mb-8">
+            <nav className="grid grid-cols-2 lg:grid-cols-5 mb-8">
 
               <div className="col-span-2 lg:col-span-5">
                 <Link href={'/'}>
@@ -70,7 +70,6 @@ export default function Layout({
                 </div>
               </Link>
 
-              {/* 
               <Link href={`/stellenangebote`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-red rounded-lg hover:bg-lumi-red hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/stellenangebote` ? `bg-lumi-red text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
                 <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
                   Unsere Stellen&shy;angebote
@@ -79,7 +78,6 @@ export default function Layout({
                   Werde Teil des LUMI Teams!
                 </div>
               </Link>
-              */}
 
             </nav>
 

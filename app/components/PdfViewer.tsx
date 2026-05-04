@@ -4,7 +4,7 @@ interface PdfViewerProps {
 
 export default function PdfViewer({ pdfPath }: PdfViewerProps) {
   return (
-    <div className="mb-8">
+    <div className="mb-8 bg-white">
       <iframe
         src={`${pdfPath}#toolbar=0&nav=0&view=FitH`}
         className="w-full aspect-[1/1.414] border-0"

@@ -4,8 +4,6 @@ export default function Page() {
     return <div>
         <h1>Unsere Stellenangebote</h1>
 
-        <h2>Pädagogische Fachkraft</h2>
-
         <div className="max-w-2xl mb-8">
             <PdfViewer
                 pdfPath="/Paedagogische_Fachkraft_(mwd)_gesucht.pdf"

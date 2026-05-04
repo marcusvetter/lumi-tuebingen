@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "next": "^16.2.2",
-    "pdfjs-dist": "^5.7.284",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
@@ -23,7 +22,6 @@
     "@playwright/test": "^1.59.0",
     "@tailwindcss/postcss": "^4.2.2",
     "@types/node": "^25.5.0",
-    "@types/pdfjs-dist": "^2.10.378",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@typescript-eslint/eslint-plugin": "^8.58.0",

@@ -23,7 +23,7 @@ export default function Page() {
             Alexander Wiethüchter</p>
 
         <p>2. Vorstand:<br />
-            Lisa Rosenkranz</p>
+            Dorothea Baumann</p>
 
         <p><strong>Eingetragen am:</strong></p>
 

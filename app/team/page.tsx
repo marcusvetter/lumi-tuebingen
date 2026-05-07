@@ -8,7 +8,7 @@ export default function Page() {
             <li>Eve Fiedler</li>
             <li>Leila Wolfsperger</li>
             <li>Katrin Irmler</li>
-            <li>Marlo D`apolito</li>
+            <li>Oskar Jassmann</li>
         </ul>
     </div>
 }

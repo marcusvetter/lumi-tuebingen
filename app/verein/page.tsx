@@ -13,7 +13,7 @@ export default function Page() {
         <h2>Vorstand</h2>
         <ul>
             <li>Alexander Wiethüchter</li>
-            <li>Lisa Rosenkranz</li>
+            <li>Dorothea Baumann</li>
             <li>Daniela Schmalz</li>
         </ul>
 

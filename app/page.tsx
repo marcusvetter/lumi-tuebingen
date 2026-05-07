@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import PdfViewer from "./components/PdfViewer"
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: "LUMI - Leben mit Kindern e.V.",
@@ -35,6 +37,13 @@ export default function Home() {
         Träger der Einrichtung ist der Verein <em>LUMI - Leben mit Kindern e.V.</em>.<br />
         Voraussetzung für eine Betreuung im LUMI ist der Beitritt in den Verein. Die Vereinsgebühr beträgt 25€ pro Jahr (ganze Familie).
       </p>
+
+      <h2>Aktuelles Stellenangebot</h2>
+      <div className="max-w-2xl mb-8">
+        <PdfViewer pdfPath="/Paedagogische_Fachkraft_(mwd)_gesucht.pdf"/>
+      </div>
+
+      Weitere Stellenangebote findest du <Link href={`/stellenangebote`} className="border-b">hier</Link>.
     </div>
   );
 }

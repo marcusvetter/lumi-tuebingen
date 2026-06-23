@@ -6,7 +6,7 @@ export default function Page() {
 
         <div className="max-w-2xl mb-8">
             <PdfViewer
-                pdfPath="/Paedagogische_Fachkraft_(mwd)_gesucht.pdf"
+                pdfPath="/Paedagogische_Fachkraft_(mwd)_gesucht_50.pdf"
             />
         </div>
 

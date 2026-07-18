@@ -1,0 +1,45 @@
+---
+meta:
+  title: "LUMI - Leben mit Kindern e.V."
+  description: "LUMI ist eine Krippengruppe in Tübingen für Kinder im Alter von 1-3 Jahren."
+
+welcome_text: >
+  LUMI ist eine Krippengruppe in Tübingen für Kinder im Alter von 1-3 Jahren.
+
+announcement:
+  enabled: false
+  title: "Einladung zur Infoveranstaltung"
+  date: "22. Januar 2026"
+  time: "15:30 Uhr"
+  text: >
+    Am 22. Januar 2026 um 15:30 Uhr laden wir alle interessierten Familien
+    herzlich zu unserer Infoveranstaltung ein. Die Veranstaltung dauert
+    ungefähr eine Stunde. Wir freuen uns auf einen schönen Austausch und ein
+    erstes Kennenlernen im LUMI.
+  contact_email: "leitung@lumi-tuebingen.de"
+
+offerings_html: |
+  <h2>Für einen starken Start ins Leben! Unser Angebot</h2>
+  <ul>
+    <li>eine liebevolle und individuelle Betreuung in einer kleinen Gruppe</li>
+    <li>eine vertrauensvolle Atmosphäre in einer kleinkindgerechten Umgebung</li>
+    <li>viel Zeit zum Herumtollen und Spielen drinnen und draußen</li>
+    <li>ein schöner Garten am Österberg zum Werkeln und Matschen</li>
+  </ul>
+
+opening_hours_html: |
+  <h2>Öffnungszeiten</h2>
+  <p><strong>Mo-Do:</strong> 7:30 Uhr bis 15:00 Uhr<br>
+  <strong>Fr:</strong> 7:30 Uhr bis 12:30 Uhr</p>
+
+association_html: |
+  <h2>Der Verein - Leben mit Kindern e.V.</h2>
+  <p>Träger der Einrichtung ist der Verein <em>LUMI - Leben mit Kindern e.V.</em>.
+  Voraussetzung für eine Betreuung im LUMI ist der Beitritt in den Verein.
+  Die Vereinsgebühr beträgt 25€ pro Jahr (ganze Familie).</p>
+
+job_listing_html: |
+  <h2>Aktuelles Stellenangebot</h2>
+  <p>Weitere Stellenangebote findest du <a href="/stellenangebote">hier</a>.</p>
+job_listing_pdf: "Paedagogische_Fachkraft_(mwd)_gesucht_50.pdf"
+---

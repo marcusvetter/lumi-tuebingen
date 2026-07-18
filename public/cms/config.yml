@@ -1,0 +1,70 @@
+backend:
+  name: github
+  repo: marcusvetter/lumi-tuebingen
+  branch: main
+  base_url: https://lumi-tuebingen-cms-auth.marcus-vetter.workers.dev
+
+media_folder: "public/images"
+public_folder: "/images"
+
+commit_messages:
+  create: 'cms: create {{collection}} "{{slug}}"'
+  update: 'cms: update {{collection}} "{{slug}}"'
+  delete: 'cms: delete {{collection}} "{{slug}}"'
+  uploadMedia: 'cms: upload "{{path}}"'
+  deleteMedia: 'cms: delete media "{{path}}"'
+
+singletons:
+  - name: home
+    label: Startseite
+    file: content/home.yaml
+    icon: home
+    fields:
+      - label: Meta Title
+        name: meta
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+
+      - label: Willkommenstext
+        name: welcome_text
+        widget: text
+        hint: "Kurzer Einleitungstext auf der Startseite"
+
+      - label: Veranstaltungs-Ankündigung
+        name: announcement
+        widget: object
+        collapsed: true
+        fields:
+          - { label: Aktiviert, name: enabled, widget: boolean, default: false }
+          - { label: Titel, name: title, widget: string, required: false }
+          - { label: Datum, name: date, widget: string, required: false }
+          - { label: Uhrzeit, name: time, widget: string, required: false }
+          - { label: Beschreibungstext, name: text, widget: text, required: false }
+          - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
+
+      - label: "Unser Angebot"
+        name: offerings_html
+        widget: richtext
+        hint: "Frei gestaltbarer Bereich mit dem Angebot des LUMI"
+
+      - label: Öffnungszeiten
+        name: opening_hours_html
+        widget: richtext
+        hint: "Öffnungszeiten als freier Text"
+
+      - label: Der Verein
+        name: association_html
+        widget: richtext
+        hint: "Informationen zum Verein Leben mit Kindern e.V."
+
+      - label: Stellenangebot
+        name: job_listing_html
+        widget: richtext
+        hint: "Bereich für das aktuelle Stellenangebot"
+
+      - label: Stellenangebot PDF
+        name: job_listing_pdf
+        widget: string
+        hint: "Dateiname des PDFs im public/ Ordner (z.B. meinpdf.pdf)"

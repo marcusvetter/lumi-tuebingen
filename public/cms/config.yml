@@ -16,19 +16,12 @@ singletons:
     file: content/home.md
     icon: home
     fields:
-      - label: Meta
-        name: meta
-        widget: object
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: text }
-
       - label: Sections
         name: sections
         widget: list
         types:
-          - label: Markdown
-            name: markdown
+          - label: Textblock
+            name: textblock
             widget: object
             fields:
               - { label: Inhalt, name: content, widget: markdown }
@@ -44,9 +37,4 @@ singletons:
               - { label: Beschreibungstext, name: text, widget: markdown, required: false }
               - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
 
-          - label: PDF
-            name: pdf
-            widget: object
-            fields:
-              - { label: Überschrift, name: title, widget: string, required: false }
-              - { label: PDF Dateiname, name: file, widget: string }
+

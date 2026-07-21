@@ -2,16 +2,11 @@ import type { Metadata } from "next";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import Markdown from "react-markdown";
+import Markdown, { type Components } from "react-markdown";
 import PdfViewer from "./components/PdfViewer";
 
-interface Meta {
-  title: string;
-  description: string;
-}
-
 interface MarkdownSection {
-  type: "markdown";
+  type: "textblock";
   content: string;
 }
 
@@ -25,16 +20,9 @@ interface AnnouncementSection {
   contact_email: string;
 }
 
-interface PdfSection {
-  type: "pdf";
-  title?: string;
-  file: string;
-}
-
-type Section = MarkdownSection | AnnouncementSection | PdfSection;
+type Section = MarkdownSection | AnnouncementSection;
 
 interface HomeContent {
-  meta: Meta;
   sections: Section[];
 }
 
@@ -46,12 +34,24 @@ function getContent(): HomeContent {
 }
 
 export function generateMetadata(): Metadata {
-  const content = getContent();
   return {
-    title: content.meta.title,
-    description: content.meta.description,
+    title: "LUMI - Leben mit Kindern e.V.",
+    description:
+      "LUMI ist eine Krippengruppe in Tübingen für Kinder im Alter von 1-3 Jahren.",
   };
 }
+
+const MarkdownImage: Components["img"] = (props) => {
+  const src = typeof props.src === "string" ? props.src : "";
+  if (src.endsWith(".pdf")) {
+    return <PdfViewer pdfPath={src} />;
+  }
+  return <img {...props} />;
+};
+
+const MarkdownParagraph: Components["p"] = (props) => {
+  return <div className="mb-5">{props.children}</div>;
+};
 
 export default function Home() {
   const content = getContent();
@@ -60,10 +60,10 @@ export default function Home() {
     <div>
       {content.sections.map((section, index) => {
         switch (section.type) {
-          case "markdown":
+          case "textblock":
             return (
               <div key={index}>
-                <Markdown>{section.content}</Markdown>
+                <Markdown components={{ img: MarkdownImage, p: MarkdownParagraph }}>{section.content}</Markdown>
               </div>
             );
 
@@ -82,14 +82,6 @@ export default function Home() {
                 <a href={`mailto:${section.contact_email}`}>
                   {section.contact_email}
                 </a>
-              </div>
-            );
-
-          case "pdf":
-            return (
-              <div key={index} className="max-w-2xl mb-8">
-                {section.title && <h2>{section.title}</h2>}
-                <PdfViewer pdfPath={`/${section.file}`} />
               </div>
             );
 

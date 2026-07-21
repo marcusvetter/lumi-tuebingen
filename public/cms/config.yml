@@ -40,7 +40,7 @@ singletons:
   - name: tagesablauf
     label: Tagesablauf
     file: content/tagesablauf.md
-    icon: calendar
+    icon: clock_loader_40
     fields:
       - label: Sections
         name: sections

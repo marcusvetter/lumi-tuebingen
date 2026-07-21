@@ -37,4 +37,18 @@ singletons:
               - { label: Beschreibungstext, name: text, widget: markdown, required: false }
               - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
 
+  - name: tagesablauf
+    label: Tagesablauf
+    file: content/tagesablauf.md
+    icon: calendar
+    fields:
+      - label: Sections
+        name: sections
+        widget: list
+        types:
+          - label: Textblock
+            name: textblock
+            widget: object
+            fields:
+              - { label: Inhalt, name: content, widget: markdown }
 

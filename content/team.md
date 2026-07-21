@@ -11,4 +11,6 @@ sections:
       - Leila Wolfsperger
       - Katrin Irmler
       - Oskar Jassmann
+
+      ![](/media/Team%20Bild.jpeg)
 ---

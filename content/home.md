@@ -20,7 +20,7 @@ sections:
       - eine vertrauensvolle Atmosphäre in einer kleinkindgerechten Umgebung
       - viel Zeit zum Herumtollen und Spielen drinnen und draußen
       - ein schöner Garten am Österberg zum Werkeln und Matschen
-      
+
       ## Öffnungszeiten
 
       **Mo-Do:** 7:30 Uhr bis 15:00 Uhr\

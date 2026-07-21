@@ -13,10 +13,7 @@ interface AnnouncementSection {
   type: "announcement";
   enabled: boolean;
   title: string;
-  date: string;
-  time: string;
   text: string;
-  contact_email: string;
 }
 
 type Section = MarkdownSection | AnnouncementSection;
@@ -77,14 +74,7 @@ export default function PageSections({ sections }: { sections: Section[] }) {
                 <strong>{section.title}</strong>
                 <br />
                 <br />
-                Am <strong>{section.date}</strong> um{" "}
-                <strong>{section.time}</strong>{" "}
                 <Markdown>{section.text}</Markdown>
-                <br />
-                Anmeldungen bitte per E-Mail an:{" "}
-                <a href={`mailto:${section.contact_email}`}>
-                  {section.contact_email}
-                </a>
               </div>
             );
 

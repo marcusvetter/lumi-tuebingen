@@ -36,11 +36,8 @@ singletons:
             widget: object
             fields:
               - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string, required: false }
-              - { label: Datum, name: date, widget: string, required: false }
-              - { label: Uhrzeit, name: time, widget: string, required: false }
-              - { label: Beschreibungstext, name: text, widget: markdown, required: false }
-              - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
+              - { label: Titel, name: title, widget: string }
+              - { label: Text, name: text, widget: markdown }
 
   - name: tagesablauf
     label: Tagesablauf
@@ -61,11 +58,8 @@ singletons:
             widget: object
             fields:
               - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string, required: false }
-              - { label: Datum, name: date, widget: string, required: false }
-              - { label: Uhrzeit, name: time, widget: string, required: false }
-              - { label: Beschreibungstext, name: text, widget: markdown, required: false }
-              - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
+              - { label: Titel, name: title, widget: string }
+              - { label: Text, name: text, widget: markdown }
 
   - name: kontakt
     label: Kontakt
@@ -86,11 +80,8 @@ singletons:
             widget: object
             fields:
               - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string, required: false }
-              - { label: Datum, name: date, widget: string, required: false }
-              - { label: Uhrzeit, name: time, widget: string, required: false }
-              - { label: Beschreibungstext, name: text, widget: markdown, required: false }
-              - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
+              - { label: Titel, name: title, widget: string }
+              - { label: Text, name: text, widget: markdown }
 
   - name: team
     label: Team
@@ -111,11 +102,8 @@ singletons:
             widget: object
             fields:
               - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string, required: false }
-              - { label: Datum, name: date, widget: string, required: false }
-              - { label: Uhrzeit, name: time, widget: string, required: false }
-              - { label: Beschreibungstext, name: text, widget: markdown, required: false }
-              - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
+              - { label: Titel, name: title, widget: string }
+              - { label: Text, name: text, widget: markdown }
 
   - name: verein
     label: Verein
@@ -136,11 +124,8 @@ singletons:
             widget: object
             fields:
               - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string, required: false }
-              - { label: Datum, name: date, widget: string, required: false }
-              - { label: Uhrzeit, name: time, widget: string, required: false }
-              - { label: Beschreibungstext, name: text, widget: markdown, required: false }
-              - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
+              - { label: Titel, name: title, widget: string }
+              - { label: Text, name: text, widget: markdown }
 
   - name: stellenangebote
     label: Stellenangebote
@@ -161,11 +146,8 @@ singletons:
             widget: object
             fields:
               - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string, required: false }
-              - { label: Datum, name: date, widget: string, required: false }
-              - { label: Uhrzeit, name: time, widget: string, required: false }
-              - { label: Beschreibungstext, name: text, widget: markdown, required: false }
-              - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
+              - { label: Titel, name: title, widget: string }
+              - { label: Text, name: text, widget: markdown }
 
   - name: impressum
     label: Impressum
@@ -186,8 +168,5 @@ singletons:
             widget: object
             fields:
               - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string, required: false }
-              - { label: Datum, name: date, widget: string, required: false }
-              - { label: Uhrzeit, name: time, widget: string, required: false }
-              - { label: Beschreibungstext, name: text, widget: markdown, required: false }
-              - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
+              - { label: Titel, name: title, widget: string }
+              - { label: Text, name: text, widget: markdown }

@@ -8,10 +8,13 @@ sections:
   - type: announcement
     enabled: false
     title: Einladung zur Infoveranstaltung
-    date: 22. Januar 2026
-    time: 15:30 Uhr
-    text: Am 22. Januar 2026 um 15:30 Uhr laden wir alle interessierten Familien herzlich zu unserer Infoveranstaltung ein. Die Veranstaltung dauert ungefähr eine Stunde. Wir freuen uns auf einen schönen Austausch und ein erstes Kennenlernen im LUMI.
-    contact_email: leitung@lumi-tuebingen.de
+    text: >-
+      Am **22. Januar 2026** um **15:30 Uhr** laden wir alle interessierten Familien
+      herzlich zu unserer Infoveranstaltung ein. Die Veranstaltung dauert
+      ungefähr eine Stunde. Wir freuen uns auf einen schönen Austausch und ein
+      erstes Kennenlernen im LUMI.
+
+      Anmeldungen bitte per E-Mail an: [leitung@lumi-tuebingen.de](mailto:leitung@lumi-tuebingen.de)
   - type: textblock
     content: |-
       ## Für einen starken Start ins Leben! Unser Angebot

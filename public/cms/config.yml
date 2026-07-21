@@ -4,15 +4,11 @@ backend:
   branch: main
   base_url: https://lumi-tuebingen-cms-auth.marcus-vetter.workers.dev
 
-media_folder: "public/images"
-public_folder: "/images"
+media_folder: /public/media
+public_folder: /media
 
-commit_messages:
-  create: 'cms: create {{collection}} "{{slug}}"'
-  update: 'cms: update {{collection}} "{{slug}}"'
-  delete: 'cms: delete {{collection}} "{{slug}}"'
-  uploadMedia: 'cms: upload "{{path}}"'
-  deleteMedia: 'cms: delete media "{{path}}"'
+editor:
+  preview: false
 
 singletons:
   - name: home

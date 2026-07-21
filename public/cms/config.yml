@@ -3,6 +3,12 @@ backend:
   repo: marcusvetter/lumi-tuebingen
   branch: main
   base_url: https://lumi-tuebingen-cms-auth.marcus-vetter.workers.dev
+  commit_messages:
+    create: 'docs: add {{collection}} "{{slug}}"'
+    update: 'docs: update {{collection}} "{{slug}}"'
+    delete: 'docs: remove {{collection}} "{{slug}}"'
+    uploadMedia: 'docs: upload "{{path}}"'
+    deleteMedia: 'docs: delete "{{path}}"'
 
 media_folder: /public/media
 public_folder: /media

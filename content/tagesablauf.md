@@ -31,7 +31,7 @@ sections:
 
       In der Regel dauert die Eingewöhnung vier bis sechs Wochen. Dann bleiben die meisten Kinder bis nach dem Mittagessen um 12:30 Uhr. Ab wann wir ein Kind nach der Eingewöhnung bei uns schlafen legen, hängt von der Befindlichkeit der jeweiligen Kinder sowie eurem Betreuungsbedarf ab.
 
-      Einmal im Jahr führen wir ein ausführliches Entwicklungsgespräch. Wir legen außerdem großen Wert auf kurze Gespräche zwischen Tür und Angel. Bei Bedarf erhöhen wir selbstverständlich die Frequenz der _Gespräche_.
+      Einmal im Jahr führen wir ein ausführliches Entwicklungsgespräch. Wir legen außerdem großen Wert auf kurze Gespräche zwischen Tür und Angel. Bei Bedarf erhöhen wir selbstverständlich die Frequenz der Gespräche.
   - type: textblock
     content: |-
       ## Unsere Konzeption

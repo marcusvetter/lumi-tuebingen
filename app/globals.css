@@ -12,6 +12,18 @@ body {
   background-color: #f1f1f1;
 }
 
+.lumi-announcement {
+  @apply bg-lumi-blue text-white rounded-lg p-6 mb-8;
+
+  p {
+    @apply text-white mb-2;
+  }
+
+  a {
+    @apply text-white underline;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

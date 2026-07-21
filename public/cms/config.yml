@@ -21,40 +21,62 @@ singletons:
     label: Startseite
     file: content/home.md
     icon: home
-    fields:
-      - label: Sections
-        name: sections
-        widget: list
-        types:
-          - label: Textblock
-            name: textblock
-            widget: object
-            fields:
-              - { label: Inhalt, name: content, widget: markdown }
-
-          - label: Ankündigung
-            name: announcement
-            widget: object
-            fields:
-              - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string, required: false }
-              - { label: Datum, name: date, widget: string, required: false }
-              - { label: Uhrzeit, name: time, widget: string, required: false }
-              - { label: Beschreibungstext, name: text, widget: markdown, required: false }
-              - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }
+    fields: *sections_fields
 
   - name: tagesablauf
     label: Tagesablauf
     file: content/tagesablauf.md
     icon: clock_loader_40
-    fields:
-      - label: Sections
-        name: sections
-        widget: list
-        types:
-          - label: Textblock
-            name: textblock
-            widget: object
-            fields:
-              - { label: Inhalt, name: content, widget: markdown }
+    fields: *sections_fields
 
+  - name: kontakt
+    label: Kontakt
+    file: content/kontakt.md
+    icon: contact_mail
+    fields: *sections_fields
+
+  - name: team
+    label: Team
+    file: content/team.md
+    icon: group
+    fields: *sections_fields
+
+  - name: verein
+    label: Verein
+    file: content/verein.md
+    icon: diversity_3
+    fields: *sections_fields
+
+  - name: stellenangebote
+    label: Stellenangebote
+    file: content/stellenangebote.md
+    icon: work
+    fields: *sections_fields
+
+  - name: impressum
+    label: Impressum
+    file: content/impressum.md
+    icon: gavel
+    fields: *sections_fields
+
+sections_fields: &sections_fields
+  - label: Sections
+    name: sections
+    widget: list
+    types:
+      - label: Textblock
+        name: textblock
+        widget: object
+        fields:
+          - { label: Inhalt, name: content, widget: markdown }
+
+      - label: Ankündigung
+        name: announcement
+        widget: object
+        fields:
+          - { label: Aktiviert, name: enabled, widget: boolean, default: false }
+          - { label: Titel, name: title, widget: string, required: false }
+          - { label: Datum, name: date, widget: string, required: false }
+          - { label: Uhrzeit, name: time, widget: string, required: false }
+          - { label: Beschreibungstext, name: text, widget: markdown, required: false }
+          - { label: Kontakt-E-Mail, name: contact_email, widget: string, required: false }

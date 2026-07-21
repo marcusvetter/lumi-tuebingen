@@ -43,16 +43,37 @@ body {
     @apply font-bold text-xl mt-10 mb-5;
   }
 
+  h3 {
+    @apply font-bold text-lg mt-8 mb-4;
+  }
+
+  h4 {
+    @apply font-semibold text-base mt-6 mb-3;
+  }
+
+  h5 {
+    @apply font-semibold text-sm mt-4 mb-2;
+  }
+
+  h6 {
+    @apply font-semibold text-sm mt-4 mb-2;
+  }
+
   ul {
     padding-left: 1.2em;
   }
 
-  li::before {
+  ul li::before {
     content: "•";
     color: black;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+  }
+
+  ol {
+    padding-left: 1.2em;
+    list-style-type: decimal;
   }
 
   p a {
@@ -61,5 +82,13 @@ body {
     &:hover {
       text-decoration: none;
     }
+  }
+}
+
+.markdown-content a {
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
   }
 }

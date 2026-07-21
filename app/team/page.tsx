@@ -1,14 +1,7 @@
+import { getPageContent } from "../components/PageSections";
+import PageSections from "../components/PageSections";
+
 export default function Page() {
-    return <div>
-        <h1>Das LUMI Team</h1>
-        <ul>
-            <li>Lisa Rosenkranz</li>
-            <li>Anne Martin</li>
-            <li>Christine Böpple</li>
-            <li>Eve Fiedler</li>
-            <li>Leila Wolfsperger</li>
-            <li>Katrin Irmler</li>
-            <li>Oskar Jassmann</li>
-        </ul>
-    </div>
+  const { sections } = getPageContent("team.md");
+  return <PageSections sections={sections} />;
 }

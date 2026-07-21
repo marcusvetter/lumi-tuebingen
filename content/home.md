@@ -37,7 +37,5 @@ sections:
 
       ![Stellenangebot](/media/Paedagogische_Fachkraft_(mwd)_gesucht_50.pdf)
 
-      ![](https://picsum.photos/id/28/1920/1280.webp)
-
       Weitere Stellenangebote findest du [hier](/stellenangebote).
 ---

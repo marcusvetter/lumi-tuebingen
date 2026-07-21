@@ -20,7 +20,7 @@ sections:
       - eine vertrauensvolle Atmosphäre in einer kleinkindgerechten Umgebung
       - viel Zeit zum Herumtollen und Spielen drinnen und draußen
       - ein schöner Garten am Österberg zum Werkeln und Matschen
-      
+
       ## Öffnungszeiten
 
       **Mo-Do:** 7:30 Uhr bis 15:00 Uhr\
@@ -36,6 +36,8 @@ sections:
       ## Aktuelles Stellenangebot
 
       ![Stellenangebot](/media/Paedagogische_Fachkraft_(mwd)_gesucht_50.pdf)
+
+      ![](https://picsum.photos/id/28/1920/1280.webp)
 
       Weitere Stellenangebote findest du [hier](/stellenangebote).
 ---

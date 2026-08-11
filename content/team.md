@@ -11,6 +11,7 @@ sections:
       - Christine Böpple
       - Eve Fiedler
       - Katrin Irmler
+      - Lydia Schmidt
       - Ayse Öztürk
       - Oskar Jassmann
 ---

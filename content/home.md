@@ -1,10 +1,7 @@
 ---
 sections:
   - type: textblock
-    content: |-
-      # Herzlich Willkommen im LUMI!
-
-      LUMI ist eine Krippengruppe in Tübingen für Kinder im Alter von 1-3 Jahren.
+    content: '# Herzlich Willkommen im LUMI!'
   - type: announcement
     enabled: false
     title: Einladung zur Infoveranstaltung
@@ -13,26 +10,27 @@ sections:
       Anmeldungen bitte per E-Mail an: [leitung@lumi-tuebingen.de](mailto:leitung@lumi-tuebingen.de)
   - type: textblock
     content: |-
-      ## Für einen starken Start ins Leben! Unser Angebot
+      ## Für einen starken Start ins Leben! 
 
-      - eine liebevolle und individuelle Betreuung in einer kleinen Gruppe
-      - eine vertrauensvolle Atmosphäre in einer kleinkindgerechten Umgebung
-      - viel Zeit zum Herumtollen und Spielen drinnen und draußen
-      - ein schöner Garten am Österberg zum Werkeln und Matschen
+      LUMI ist eine kleine, familiäre Krippengruppe in Tübingen-Lustnau für **Kinder von 1 bis 3 Jahren**. In einer **vertrauensvollen Atmosphäre und kleinkindgerechten Umgebung** begleiten wir Kinder mit viel Zeit für **freies Spiel, Bewegung** und **Naturerfahrungen**. Zu unserem Alltag gehören der große Hof an der Nürtinger Straße, Ausflüge in die Umgebung und unser Gütle am Österberg. Träger ist die **Elterninitiative LUMI – Leben mit Kindern e.V.**
 
-      ## Öffnungszeiten
+      ### 
 
-      **Mo-Do:** 7:30 Uhr bis 15:00 Uhr\
-      **Fr:** 7:30 Uhr bis 12:30 Uhr
+      ### Kurz & Knapp
 
-      ## Der Verein - Leben mit Kindern e.V.
-
-      Träger der Einrichtung ist der Verein _LUMI - Leben mit Kindern e.V._.
-      Voraussetzung für eine Betreuung im LUMI ist der Beitritt in den Verein.
-      Die Vereinsgebühr beträgt 25€ pro Jahr (ganze Familie).
+      - **Alter**: 1–3 Jahre
+      - **Betreuungszeiten**: 
+      **Mo–Do:** 7:30–15:00 Uhr, 
+      **Fr:** 7:30–12:30 Uhr
+      - **Standort**: Nürtinger Straße 21, 72074 Tübingen-Lustnau
+      - **Gebühren:** Es fallen die üblichen Betreuungsgebühren des Tübinger Raums an (siehe [hier](https://www.tuebingen.de/23417.html))
+      - **Träger**: Elterninitiative LUMI – Leben mit Kindern e.V., Vereinsbeitrag: 25 Euro pro Jahr / ganze Familie 
+      - **Unterstützen:** Wir freuen uns über jede kleine Spende [hier](https://www.betterplace.org/de/organisations/54892-spielgruppe-lumi-leben-mit-kindern-e-v)
   - type: textblock
     content: |-
-      ## Aktuelles Stellenangebot
+      # Aktuelles
+
+      Im LUMI erleben wir das Jahr gemeinsam – mit Festen, Ausflügen, Naturerlebnissen und vielen kleinen Alltagsmomenten. Hier geben wir gelegentlich Einblicke in das, was uns gerade beschäftigt.
 
       ![Stellenangebot](/media/Paedagogische_Fachkraft_(mwd)_gesucht_50.pdf)
 

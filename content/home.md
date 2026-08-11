@@ -15,16 +15,7 @@ sections:
       LUMI ist eine kleine, familiäre Krippengruppe in Tübingen-Lustnau für **Kinder von 1 bis 3 Jahren**. In einer **vertrauensvollen Atmosphäre und kleinkindgerechten Umgebung** begleiten wir Kinder mit viel Zeit für **freies Spiel, Bewegung** und **Naturerfahrungen**. Zu unserem Alltag gehören der große Hof an der Nürtinger Straße, Ausflüge in die Umgebung und unser Gütle am Österberg. Träger ist die **Elterninitiative LUMI – Leben mit Kindern e.V.**
   - type: textblock
     content: |-
-      ## Aktuelles
-
-      Im LUMI erleben wir das Jahr gemeinsam – mit Festen, Ausflügen, Naturerlebnissen und vielen kleinen Alltagsmomenten. Hier geben wir gelegentlich Einblicke in das, was uns gerade beschäftigt.
-
-
-
-      Weitere Stellenangebote findest du [hier](/stellenangebote).
-  - type: textblock
-    content: |-
-      ## Kurz & Knapp
+      # Kurz & Knapp
 
       - **Alter**: 1–3 Jahre
       - **Betreuungszeiten**: 
@@ -34,4 +25,13 @@ sections:
       - **Gebühren:** Es fallen die üblichen Betreuungsgebühren des Tübinger Raums an (siehe [hier](https://www.tuebingen.de/23417.html))
       - **Träger**: Elterninitiative LUMI – Leben mit Kindern e.V., Vereinsbeitrag: 25 Euro pro Jahr / ganze Familie 
       - **Unterstützen:** Wir freuen uns über jede kleine Spende [hier](https://www.betterplace.org/de/organisations/54892-spielgruppe-lumi-leben-mit-kindern-e-v)
+  - type: textblock
+    content: |-
+      # Aktuelles
+
+      Im LUMI erleben wir das Jahr gemeinsam – mit Festen, Ausflügen, Naturerlebnissen und vielen kleinen Alltagsmomenten. Hier geben wir gelegentlich Einblicke in das, was uns gerade beschäftigt.
+
+      #### Pädagogische Fachkraft gesucht!
+
+      Aktuelle Stellenangebote findest du [hier](/stellenangebote).
 ---

@@ -2,13 +2,15 @@
 sections:
   - type: textblock
     content: |-
-      # Das LUMI Team
+      # Das LUMI-Team
+
+      ![LumiTeam](/media/TeamBild_lowRes.jpg)
 
       - Lisa Rosenkranz
       - Anne Martin
       - Christine Böpple
       - Eve Fiedler
-      - Leila Wolfsperger
       - Katrin Irmler
+      - Ayse Öztürk
       - Oskar Jassmann
 ---

@@ -6,7 +6,7 @@ sections:
 
       Haben Sie Interesse daran, Ihr Kind von uns betreuen zu lassen? Das freut uns sehr! Hier sind die Spielregeln:
 
-      **Grundvoraussetzung:** Sie müssen bei der Tübinger *Zentrale Anmeldestelle Kinderbetreuung* (ZAK) angemeldet sein. Die Anmeldung ist Pflicht für alle Kitas und Betreuungsangebote in Tübingen. Sie können sich hier online anmelden: [https://www.tuebingen.de/zak](https://www.tuebingen.de/zak)
+      **Grundvoraussetzung:** Sie müssen bei der Tübinger _Zentrale Anmeldestelle Kinderbetreuung_ (ZAK) angemeldet sein. Die Anmeldung ist Pflicht für alle Kitas und Betreuungsangebote in Tübingen. Sie können sich hier online anmelden: [https://www.tuebingen.de/zak](https://www.tuebingen.de/zak)
 
       **Ohne vorherige Anmeldung bei der Zentralen Anmeldestelle können wir keine Betreuungsplätze vergeben!** Bitte kontaktieren Sie uns erst, wenn Sie sich bei der Zentralen Anmeldestelle angemeldet haben.
 
@@ -30,8 +30,5 @@ sections:
       Nürtingerstraße 21\
       72074 Tübingen
 
-      Büro: 07071 / 770 43 70\
-      Gruppe: 07071 / 770 43 71\
-      Mobil: 0172 / 979 44 82\
-      E-Mail: info at lumi-tuebingen punkt de
+      E-Mail: [info@lumi-tuebingen.de](mailto:info@lumi-tuebingen.de)
 ---

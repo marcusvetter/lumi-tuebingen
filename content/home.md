@@ -1,7 +1,5 @@
 ---
 sections:
-  - type: textblock
-    content: '# Herzlich Willkommen im LUMI!'
   - type: announcement
     enabled: false
     title: Einladung zur Infoveranstaltung
@@ -10,12 +8,13 @@ sections:
       Anmeldungen bitte per E-Mail an: [leitung@lumi-tuebingen.de](mailto:leitung@lumi-tuebingen.de)
   - type: textblock
     content: |-
+      # Herzlich Willkommen im LUMI
+
       ## Für einen starken Start ins Leben! 
 
       LUMI ist eine kleine, familiäre Krippengruppe in Tübingen-Lustnau für **Kinder von 1 bis 3 Jahren**. In einer **vertrauensvollen Atmosphäre und kleinkindgerechten Umgebung** begleiten wir Kinder mit viel Zeit für **freies Spiel, Bewegung** und **Naturerfahrungen**. Zu unserem Alltag gehören der große Hof an der Nürtinger Straße, Ausflüge in die Umgebung und unser Gütle am Österberg. Träger ist die **Elterninitiative LUMI – Leben mit Kindern e.V.**
-  - type: textblock
-    content: |-
-      # Kurz & Knapp
+
+      ## Kurz & Knapp
 
       - **Alter**: 1–3 Jahre
       - **Betreuungszeiten**: 

@@ -1,10 +1,7 @@
 ---
 sections:
   - type: textblock
-    content: |-
-      # Herzlich Willkommen im LUMI - 
-
-      # Für einen starken Start ins Leben!
+    content: '# Herzlich Willkommen im LUMI - Für einen starken Start ins Leben!'
   - type: textblock
     content: |-
       ## Aktuelles
@@ -19,10 +16,7 @@ sections:
   - type: announcement
     enabled: true
     title: Pädagogische Fachkraft gesucht
-    text: |-
-      #### Pädagogische Fachkraft gesucht!
-
-      Aktuelle Stellenangebote findest du [hier](/stellenangebote).
+    text: Aktuelle Stellenangebote findest du [hier](/stellenangebote).
   - type: textblock
     content: |-
       ## Über uns

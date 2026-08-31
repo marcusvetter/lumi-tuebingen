@@ -14,7 +14,7 @@ sections:
       Am **22. Januar 2026** um **15:30 Uhr** laden wir alle interessierten Familien herzlich zu unserer Infoveranstaltung ein. Die Veranstaltung dauert ungefähr eine Stunde. Wir freuen uns auf einen schönen Austausch und ein erstes Kennenlernen im LUMI.
       Anmeldungen bitte per E-Mail an: [leitung@lumi-tuebingen.de](mailto:leitung@lumi-tuebingen.de)
   - type: announcement
-    enabled: true
+    enabled: false
     title: Pädagogische Fachkraft gesucht
     text: Aktuelle Stellenangebote findest du [hier](/stellenangebote).
   - type: textblock

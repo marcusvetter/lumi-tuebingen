@@ -1,4 +1,7 @@
 ---
+nav:
+  headline: Der Weg zu uns
+  subheadline: Hier erfährst du, wie du Kontakt mit uns aufnehmen kannst.
 sections:
   - type: textblock
     content: |-

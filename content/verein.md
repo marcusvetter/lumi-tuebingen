@@ -1,4 +1,7 @@
 ---
+nav:
+  headline: Der Verein
+  subheadline: Leben mit Kindern e.V. - der Verein des LUMIs
 sections:
   - type: textblock
     content: |-

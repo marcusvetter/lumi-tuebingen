@@ -1,4 +1,7 @@
 ---
+nav:
+  headline: Unsere Stellenangebote
+  subheadline: Werde Teil des LUMI Teams!
 sections:
   - type: announcement
     content: |-

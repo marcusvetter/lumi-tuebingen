@@ -1,4 +1,7 @@
 ---
+nav:
+  headline: Der Tag im LUMI
+  subheadline: Unser Tagesablauf & die LUMI Konzeption
 sections:
   - type: textblock
     content: |-

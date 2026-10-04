@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import Markdown, { type Components } from "react-markdown";
 import PdfViewer from "./PdfViewer";
+import type { NavMeta } from "../lib/nav";
 
 interface MarkdownSection {
   type: "textblock";
@@ -19,6 +20,7 @@ interface AnnouncementSection {
 type Section = MarkdownSection | AnnouncementSection;
 
 interface PageContent {
+  nav?: NavMeta;
   sections: Section[];
 }
 

@@ -1,9 +1,8 @@
-'use client'
-
 import React from 'react'
-import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import Image from "next/image";
+import Nav from "./components/Nav";
+import { getNavItems } from "./lib/nav";
 import "./globals.css";
 
 export default function Layout({
@@ -12,15 +11,15 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
 
-  const pathname = usePathname()
+  const navItems = getNavItems()
 
   return (
-    <html lang="en">
+    <html lang="de">
       <body className="grid justify-items-center overflow-y-scroll min-h-screen">
         <div className="max-w-(--breakpoint-lg) bg-white lg:my-8 flex flex-col">
           <div className="w-full h-1 bg-linear-to-r from-lumi-blue/70 via-lumi-red/70 to-lumi-green/70"></div>
           <div className="px-4 lg:px-8 pt-4 lg:pt-8 grow">
-            <nav className="grid grid-cols-2 lg:grid-cols-5 mb-8">
+            <nav className="grid grid-cols-2 lg:grid-cols-5 mb-8 hyphens-auto">
 
               <div className="col-span-2 lg:col-span-5">
                 <Link href={'/'}>
@@ -34,50 +33,7 @@ export default function Layout({
                 </Link>
               </div>
 
-              <Link href={`/tagesablauf`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-blue rounded-lg hover:bg-lumi-blue hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/tagesablauf` ? `bg-lumi-blue text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
-                  Der Tag im LUMI
-                </div>
-                <div className={`text-sm opacity-50`}>
-                  Unser Tagesablauf & die LUMI Konzeption
-                </div>
-              </Link>
-
-              <Link href={`/kontakt`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-yellow rounded-lg hover:bg-lumi-yellow transition-transform duration-200 hover:-translate-y-1 ${pathname === `/kontakt` ? `bg-lumi-yellow -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
-                  Der Weg zu uns
-                </div>
-                <div className={`text-sm opacity-50`}>
-                  Hier erfährst du, wie du Kontakt mit uns aufnehmen kannst.
-                </div>
-              </Link>
-
-              <Link href={`/team`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-orange rounded-lg hover:bg-lumi-orange hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/team` ? `bg-lumi-orange text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
-                  Das LUMI Team
-                </div>
-                <div className={`text-sm opacity-50`}>
-                  Lerne das Team des LUMI kennen.
-                </div>
-              </Link>
-
-              <Link href={`/verein`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-green rounded-lg hover:bg-lumi-green hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/verein` ? `bg-lumi-green text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
-                  Der Verein
-                </div>
-                <div className={`text-sm opacity-50`}>
-                  Leben mit Kindern e.V. - der Verein des LUMIs
-                </div>
-              </Link>
-
-              <Link href={`/stellenangebote`} className={`link m-1 lg:m-2 p-2 lg:px-5 lg:py-4 border-2 border-lumi-red rounded-lg hover:bg-lumi-red hover:text-white transition-transform duration-200 hover:-translate-y-1 ${pathname === `/stellenangebote` ? `bg-lumi-red text-white -translate-y-1` : 'bg-lumi-white translate-y-0'}`}>
-                <div className={`lg:mb-3 text-xl lg:text-2xl font-semibold`}>
-                  Unsere Stellen&shy;angebote
-                </div>
-                <div className={`text-sm opacity-50`}>
-                  Werde Teil des LUMI Teams!
-                </div>
-              </Link>
+              <Nav items={navItems} />
 
             </nav>
 

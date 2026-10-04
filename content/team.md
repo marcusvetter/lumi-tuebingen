@@ -1,4 +1,7 @@
 ---
+nav:
+  headline: Das LUMI Team
+  subheadline: Lerne das Team des LUMI kennen.
 sections:
   - type: textblock
     content: |-

@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from "next/image";
 import Nav from "./components/Nav";
+import { FIXED_PAGES } from "./lib/content";
 import { getNavItems } from "./lib/nav";
 import "./globals.css";
 
@@ -19,9 +20,13 @@ export default function Layout({
         <div className="max-w-(--breakpoint-lg) bg-white lg:my-8 flex flex-col">
           <div className="w-full h-1 bg-linear-to-r from-lumi-blue/70 via-lumi-red/70 to-lumi-green/70"></div>
           <div className="px-4 lg:px-8 pt-4 lg:pt-8 grow">
-            <nav className="grid grid-cols-2 lg:grid-cols-5 mb-8 hyphens-auto">
+            <nav
+              className="lumi-nav grid grid-cols-2 mb-8 hyphens-auto"
+              /* as many columns as there are items, so the bar always fills the width */
+              style={{ "--nav-columns": Math.max(navItems.length, 1) } as React.CSSProperties}
+            >
 
-              <div className="col-span-2 lg:col-span-5">
+              <div className="col-span-full">
                 <Link href={'/'}>
                   <Image
                     src="/lumi-train.jpeg"
@@ -53,7 +58,7 @@ export default function Layout({
                 Made with ❤️ in Tübingen
               </div>
               <div>
-                <Link href={"/impressum"} className="font-semibold">
+                <Link href={FIXED_PAGES.impressum} className="font-semibold">
                   Impressum & Datenschutz
                 </Link>
               </div>

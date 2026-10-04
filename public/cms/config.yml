@@ -16,161 +16,19 @@ public_folder: /media
 editor:
   preview: false
 
+# Slugs become the file name and therefore the address of a page. Without
+# transliteration "Über uns" would end up as "über-uns" and break the build.
+slug:
+  encoding: ascii
+  clean_accents: true
+
 singletons:
   - name: home
     label: Startseite
     file: content/home.md
     icon: home
     fields:
-      - label: Sections
-        name: sections
-        widget: list
-        types:
-          - label: Textblock
-            name: textblock
-            widget: object
-            fields:
-              - { label: Inhalt, name: content, widget: markdown }
-          - label: Ankündigung
-            name: announcement
-            widget: object
-            fields:
-              - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string }
-              - { label: Text, name: text, widget: markdown }
-
-  - name: tagesablauf
-    label: Tagesablauf
-    file: content/tagesablauf.md
-    icon: clock_loader_40
-    fields:
-      - label: Navigation
-        name: nav
-        widget: object
-        hint: "Überschrift und Unterzeile des Eintrags in der Navigationsbar."
-        fields:
-          - { label: Überschrift, name: headline, widget: string, required: true }
-          - { label: Unterzeile, name: subheadline, widget: text, required: true }
-
-      - label: Sections
-        name: sections
-        widget: list
-        types:
-          - label: Textblock
-            name: textblock
-            widget: object
-            fields:
-              - { label: Inhalt, name: content, widget: markdown }
-          - label: Ankündigung
-            name: announcement
-            widget: object
-            fields:
-              - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string }
-              - { label: Text, name: text, widget: markdown }
-
-  - name: kontakt
-    label: Kontakt
-    file: content/kontakt.md
-    icon: contact_mail
-    fields:
-      - label: Navigation
-        name: nav
-        widget: object
-        hint: "Überschrift und Unterzeile des Eintrags in der Navigationsbar."
-        fields:
-          - { label: Überschrift, name: headline, widget: string, required: true }
-          - { label: Unterzeile, name: subheadline, widget: text, required: true }
-
-      - label: Sections
-        name: sections
-        widget: list
-        types:
-          - label: Textblock
-            name: textblock
-            widget: object
-            fields:
-              - { label: Inhalt, name: content, widget: markdown }
-          - label: Ankündigung
-            name: announcement
-            widget: object
-            fields:
-              - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string }
-              - { label: Text, name: text, widget: markdown }
-
-  - name: team
-    label: Team
-    file: content/team.md
-    icon: group
-    fields:
-      - label: Navigation
-        name: nav
-        widget: object
-        hint: "Überschrift und Unterzeile des Eintrags in der Navigationsbar."
-        fields:
-          - { label: Überschrift, name: headline, widget: string, required: true }
-          - { label: Unterzeile, name: subheadline, widget: text, required: true }
-
-      - label: Sections
-        name: sections
-        widget: list
-        types:
-          - label: Textblock
-            name: textblock
-            widget: object
-            fields:
-              - { label: Inhalt, name: content, widget: markdown }
-          - label: Ankündigung
-            name: announcement
-            widget: object
-            fields:
-              - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string }
-              - { label: Text, name: text, widget: markdown }
-
-  - name: verein
-    label: Verein
-    file: content/verein.md
-    icon: diversity_3
-    fields:
-      - label: Navigation
-        name: nav
-        widget: object
-        hint: "Überschrift und Unterzeile des Eintrags in der Navigationsbar."
-        fields:
-          - { label: Überschrift, name: headline, widget: string, required: true }
-          - { label: Unterzeile, name: subheadline, widget: text, required: true }
-
-      - label: Sections
-        name: sections
-        widget: list
-        types:
-          - label: Textblock
-            name: textblock
-            widget: object
-            fields:
-              - { label: Inhalt, name: content, widget: markdown }
-          - label: Ankündigung
-            name: announcement
-            widget: object
-            fields:
-              - { label: Aktiviert, name: enabled, widget: boolean, default: false }
-              - { label: Titel, name: title, widget: string }
-              - { label: Text, name: text, widget: markdown }
-
-  - name: stellenangebote
-    label: Stellenangebote
-    file: content/stellenangebote.md
-    icon: work
-    fields:
-      - label: Navigation
-        name: nav
-        widget: object
-        hint: "Überschrift und Unterzeile des Eintrags in der Navigationsbar."
-        fields:
-          - { label: Überschrift, name: headline, widget: string, required: true }
-          - { label: Unterzeile, name: subheadline, widget: text, required: true }
+      - { label: Titel, name: title, widget: string, required: true, hint: "Wird als Überschrift der Seite und im Tab des Browsers verwendet." }
 
       - label: Sections
         name: sections
@@ -194,6 +52,8 @@ singletons:
     file: content/impressum.md
     icon: gavel
     fields:
+      - { label: Titel, name: title, widget: string, required: true, hint: "Wird als Überschrift der Seite und im Tab des Browsers verwendet." }
+
       - label: Sections
         name: sections
         widget: list
@@ -210,3 +70,67 @@ singletons:
               - { label: Aktiviert, name: enabled, widget: boolean, default: false }
               - { label: Titel, name: title, widget: string }
               - { label: Text, name: text, widget: markdown }
+
+collections:
+  - name: pages
+    label: Seiten
+    label_singular: Seite
+    folder: /content/pages
+    create: true
+    delete: true
+    duplicate: true
+    # The order the pages are dragged into is the order in the navigation bar.
+    reorder: true
+    identifier_field: title
+    slug:
+      template: "{{slug}}"
+      # Renaming a page would silently break its address, so the slug may only
+      # be chosen when the page is created.
+      editable: [create]
+      pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', "Bitte nur Kleinbuchstaben, Zahlen und Bindestriche verwenden, z.B. \"ferienbetreuung\"."]
+      hint: "Der Name wird zum Dateinamen und damit zur Adresse der Seite, z.B. lumi-tuebingen.de/ferienbetreuung. Nach dem Anlegen kann er nicht mehr geändert werden."
+    summary: "{{nav.subheadline}}"
+    fields:
+      - { label: Titel, name: title, widget: string, required: true, hint: "Wird als Überschrift der Seite und im Tab des Browsers verwendet." }
+
+      - label: Navigation
+        name: nav
+        widget: object
+        required: false
+        hint: "Nur ausfüllen, wenn die Seite in der Navigationsbar erscheinen soll. Ohne diesen Block ist die Seite trotzdem unter ihrer Adresse erreichbar. Ist die Seite deaktiviert, verschwindet der Eintrag und die Seite ist nicht mehr erreichbar. Die Reihenfolge der Einträge ergibt sich aus der Reihenfolge der Seiten in dieser Liste."
+        fields:
+          - { label: Aktiviert, name: enabled, widget: boolean, default: true }
+          - label: Überschrift
+            name: headline
+            widget: string
+            required: false
+            hint: "Optional. Leer lassen, um den Titel der Seite zu verwenden."
+          - { label: Unterzeile, name: subheadline, widget: text, required: true }
+          - label: Farbe
+            name: color
+            widget: select
+            default: blue
+            options:
+              - { label: Blau, value: blue }
+              - { label: Gelb, value: yellow }
+              - { label: Orange, value: orange }
+              - { label: Grün, value: green }
+              - { label: Rot, value: red }
+
+      - label: Sections
+        name: sections
+        widget: list
+        types:
+          - label: Textblock
+            name: textblock
+            widget: object
+            fields:
+              - { label: Inhalt, name: content, widget: markdown }
+          - label: Ankündigung
+            name: announcement
+            widget: object
+            fields:
+              - { label: Aktiviert, name: enabled, widget: boolean, default: false }
+              - { label: Titel, name: title, widget: string }
+              - { label: Text, name: text, widget: markdown }
+

@@ -30,6 +30,15 @@ body {
   }
 }
 
+/* The navigation bar gets as many columns as it has items, so it keeps filling
+   the full width on desktop. `--nav-columns` is set in app/layout.tsx.
+   Deliberately unlayered: unlayered rules beat Tailwind's `grid-cols-2`. */
+@media (min-width: 64rem) {
+  .lumi-nav {
+    grid-template-columns: repeat(var(--nav-columns, 5), minmax(0, 1fr));
+  }
+}
+
 @layer base {
   p {
     @apply mb-5;

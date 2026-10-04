@@ -1,35 +1,6 @@
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
 import Markdown, { type Components } from "react-markdown";
 import PdfViewer from "./PdfViewer";
-import type { NavMeta } from "../lib/nav";
-
-interface MarkdownSection {
-  type: "textblock";
-  content: string;
-}
-
-interface AnnouncementSection {
-  type: "announcement";
-  enabled: boolean;
-  title: string;
-  text: string;
-}
-
-type Section = MarkdownSection | AnnouncementSection;
-
-interface PageContent {
-  nav?: NavMeta;
-  sections: Section[];
-}
-
-export function getPageContent(filename: string): PageContent {
-  const filePath = path.join(process.cwd(), "content", filename);
-  const fileContents = fs.readFileSync(filePath, "utf8");
-  const { data } = matter(fileContents);
-  return data as PageContent;
-}
+import type { Section } from "../lib/content";
 
 const MarkdownImage: Components["img"] = (props) => {
   const src = typeof props.src === "string" ? props.src : "";
@@ -57,9 +28,22 @@ const MarkdownParagraph: Components["p"] = (props) => {
   return <div className="mb-5">{props.children}</div>;
 };
 
-export default function PageSections({ sections }: { sections: Section[] }) {
+/**
+ * Renders a whole page: its title as the only `<h1>` plus the sections editors
+ * maintain in the CMS. The title lives in the front matter so it can also be
+ * used for the document title and in the CMS list.
+ */
+export default function PageSections({
+  title,
+  sections,
+}: {
+  title: string;
+  sections: Section[];
+}) {
   return (
     <div className="markdown-content">
+      <h1>{title}</h1>
+
       {sections.map((section, index) => {
         switch (section.type) {
           case "textblock":

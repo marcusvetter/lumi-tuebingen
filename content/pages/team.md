@@ -1,12 +1,14 @@
 ---
+title: Das LUMI-Team
+order: 3
 nav:
+  enabled: true
+  color: orange
   headline: Das LUMI Team
   subheadline: Lerne das Team des LUMI kennen.
 sections:
   - type: textblock
     content: |-
-      # Das LUMI-Team
-
       ![LumiTeam](/media/TeamBild_lowRes.jpg)
 
       - Lisa Rosenkranz

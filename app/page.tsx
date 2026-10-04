@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { getPageContent } from "./components/PageSections";
 import PageSections from "./components/PageSections";
+import { getFixedPageContent } from "./lib/content";
 
 export function generateMetadata(): Metadata {
   return {
@@ -11,6 +11,6 @@ export function generateMetadata(): Metadata {
 }
 
 export default function Home() {
-  const { sections } = getPageContent("home.md");
-  return <PageSections sections={sections} />;
+  const { title, sections } = getFixedPageContent("home");
+  return <PageSections title={title} sections={sections} />;
 }

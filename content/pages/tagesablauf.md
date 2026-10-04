@@ -1,12 +1,13 @@
 ---
+title: Der Tag im LUMI
+order: 1
 nav:
-  headline: Der Tag im LUMI
+  enabled: true
+  color: blue
   subheadline: Unser Tagesablauf & die LUMI Konzeption
 sections:
   - type: textblock
     content: |-
-      # Der Tag im LUMI
-
       Die Kinder können zwischen 7:30 Uhr und 9:00 Uhr zu uns gebracht werden.
 
       Übergeben werden sie nach dem Ausziehen und Hände waschen mit ihren Eltern oder Bezugspersonen an der Gruppenraumtür. Zwischen 08:30 Uhr und 09:45 Uhr haben die Kinder die Möglichkeit nach ihrem Befinden in die Küche zum Frühstücken zu kommen. Wir achten darauf, dass jedes Kind in der Küche saß und die Möglichkeit hat, in Ruhe unseren Grießbrei oder die liebevoll zubereiteten Brote zu genießen. Zu jedem Frühstück gibt es saisonales, wenn möglich regionales Obst und Gemüse.

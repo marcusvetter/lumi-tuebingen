@@ -1,12 +1,13 @@
 ---
+title: Der Verein
+order: 4
 nav:
-  headline: Der Verein
+  enabled: true
+  color: green
   subheadline: Leben mit Kindern e.V. - der Verein des LUMIs
 sections:
   - type: textblock
     content: |-
-      # Der Verein
-
       Träger der Einrichtung ist der Verein _LUMI – Leben mit Kindern e.V._. Der gemeinnützige Verein wurde im Juni 2006 gegründet und ist seit 2007 Träger der freien Jugendhilfe.
 
       Wir freuen uns über neue Fördermitglieder, die unsere Arbeit unterstützen. Spenden und Vereinsbeiträge sind steuerlich absetzbar.

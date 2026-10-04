@@ -1,12 +1,13 @@
 ---
+title: Der Weg zu uns
+order: 2
 nav:
-  headline: Der Weg zu uns
+  enabled: true
+  color: yellow
   subheadline: Hier erfährst du, wie du Kontakt mit uns aufnehmen kannst.
 sections:
   - type: textblock
     content: |-
-      # Der Weg zu uns
-
       Haben Sie Interesse daran, Ihr Kind von uns betreuen zu lassen? Das freut uns sehr! Hier sind die Spielregeln:
 
       **Grundvoraussetzung:** Sie müssen bei der Tübinger _Zentrale Anmeldestelle Kinderbetreuung_ (ZAK) angemeldet sein. Die Anmeldung ist Pflicht für alle Kitas und Betreuungsangebote in Tübingen. Sie können sich hier online anmelden: [https://www.tuebingen.de/zak](https://www.tuebingen.de/zak)

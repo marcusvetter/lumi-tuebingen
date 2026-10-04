@@ -1,7 +1,6 @@
 ---
+title: Herzlich Willkommen im LUMI - Für einen starken Start ins Leben!
 sections:
-  - type: textblock
-    content: '# Herzlich Willkommen im LUMI - Für einen starken Start ins Leben!'
   - type: textblock
     content: |-
       ## Aktuelles

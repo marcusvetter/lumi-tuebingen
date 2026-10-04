@@ -1,10 +1,10 @@
 ---
+order: 4
 title: Unsere Stellenangebote
-order: 5
 nav:
   enabled: true
-  color: red
   subheadline: Werde Teil des LUMI Teams!
+  color: red
 sections:
   - type: announcement
     content: |-

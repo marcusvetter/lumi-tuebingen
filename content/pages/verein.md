@@ -1,10 +1,10 @@
 ---
+order: 5
 title: Der Verein
-order: 4
 nav:
   enabled: true
-  color: green
   subheadline: Leben mit Kindern e.V. - der Verein des LUMIs
+  color: green
 sections:
   - type: textblock
     content: |-

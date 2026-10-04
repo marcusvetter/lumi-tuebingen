@@ -23,6 +23,16 @@ slug:
   clean_accents: true
 
 singletons:
+  - name: site
+    label: Website
+    file: content/site.md
+    icon: settings
+    fields:
+      - { label: Titel, name: title, widget: string, required: true, hint: "Erscheint im Tab des Browsers und als Vorgabe, wenn eine Seite keinen eigenen Titel hat." }
+      - { label: Beschreibung, name: description, widget: text, required: true, hint: "Beschreibung der Website für Suchmaschinen. Wird von allen Seiten verwendet, die keine eigene mitbringen." }
+      - { label: Kopfbild, name: image, widget: image, required: true, hint: "Das Bild oben auf jeder Seite, aktuell der LUMI Train. Am besten ein breites Format (z.B. 2600x1000), es wird auf die Breite des Inhaltsbereichs skaliert." }
+      - { label: Bildbeschreibung, name: alt, widget: string, required: true, hint: "Für Screenreader und falls das Bild nicht geladen werden kann." }
+
   - name: home
     label: Startseite
     file: content/home.md

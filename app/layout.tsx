@@ -1,10 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from "next/image";
+import type { Metadata } from "next";
 import Nav from "./components/Nav";
-import { FIXED_PAGES } from "./lib/content";
+import { FIXED_PAGES, getSiteSettings } from "./lib/content";
 import { getNavItems } from "./lib/nav";
 import "./globals.css";
+
+/** Applies to every page that does not define a title or description itself. */
+export function generateMetadata(): Metadata {
+  const { title, description } = getSiteSettings();
+  return { title, description };
+}
 
 export default function Layout({
   children,
@@ -13,6 +20,7 @@ export default function Layout({
 }>) {
 
   const navItems = getNavItems()
+  const site = getSiteSettings()
 
   return (
     <html lang="de">
@@ -29,8 +37,8 @@ export default function Layout({
               <div className="col-span-full">
                 <Link href={'/'}>
                   <Image
-                    src="/lumi-train.jpeg"
-                    alt="LUMI Train"
+                    src={site.image}
+                    alt={site.alt}
                     width={1092}
                     height={100}
                     priority

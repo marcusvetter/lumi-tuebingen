@@ -16,6 +16,19 @@ export const FIXED_PAGES = {
 
 export type FixedPage = keyof typeof FIXED_PAGES;
 
+/** The singleton with the settings that apply to the whole site. */
+const SITE_SETTINGS = "site";
+
+export interface SiteSettings {
+  /** Document title of every page that does not bring one of its own. */
+  title: string;
+  /** Meta description of every page that does not bring one of its own. */
+  description: string;
+  /** The banner in the header, e.g. "/media/lumi-train.jpeg". */
+  image: string;
+  alt: string;
+}
+
 /** Slugs a page from the collection must not use. */
 const RESERVED_SLUGS = ["home", "impressum", "cms", "api", "_next"];
 
@@ -84,6 +97,38 @@ export function getFixedPageContent(slug: FixedPage): PageContent {
   }
 
   return readPage(FIXED_PAGES_DIR, slug);
+}
+
+/**
+ * Site-wide settings from a singleton: the banner in the header and the
+ * metadata that applies to every page. Like the fixed pages this file is
+ * required, because without it the site would have no header at all.
+ */
+export function getSiteSettings(): SiteSettings {
+  const file = path.join(FIXED_PAGES_DIR, `${SITE_SETTINGS}.md`);
+
+  if (!fs.existsSync(file)) {
+    throw new Error(
+      `Missing content/${SITE_SETTINGS}.md. These site settings are required.`
+    );
+  }
+
+  const { data } = matter(fs.readFileSync(file, "utf8"));
+  const site = data as SiteSettings;
+
+  for (const field of ["title", "description", "image", "alt"] as const) {
+    if (!site[field]?.trim()) {
+      throw new Error(`Missing required "${field}" in content/${SITE_SETTINGS}.md.`);
+    }
+  }
+
+  // An image that was removed from the media library would ship as a broken
+  // header, so stop the build instead.
+  if (site.image.startsWith("/") && !fs.existsSync(path.join(process.cwd(), "public", site.image))) {
+    throw new Error(`Missing public${site.image} (image in content/${SITE_SETTINGS}.md).`);
+  }
+
+  return site;
 }
 
 /**

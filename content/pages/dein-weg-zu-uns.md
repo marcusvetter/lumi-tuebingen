@@ -5,7 +5,7 @@ nav:
   enabled: true
   headline: Dein Weg zu uns
   subheadline: Werde Teil von LUMI
-  color: blue
+  color: red
 sections:
   - type: textblock
     content: |-

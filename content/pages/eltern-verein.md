@@ -2,7 +2,7 @@
 order: 8
 title: Eltern & Verein
 nav:
-  enabled: false
+  enabled: true
   headline: Eltern & Verein
   subheadline: Die Rolle der Eltern und des Vereins
   color: orange

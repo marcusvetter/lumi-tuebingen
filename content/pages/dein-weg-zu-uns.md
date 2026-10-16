@@ -36,4 +36,12 @@ sections:
       # Für neue Mitarbeitende
 
       Arbeiten im LUMI bedeutet, Kinder in einer kleinen Gruppe achtsam und alltagsnah zu begleiten. Freies Spiel, Naturerfahrungen, verlässliche Beziehungen und ein ruhiger, klar strukturierter Alltag prägen unsere Arbeit. Als Elterninitiative ist LUMI außerdem ein Ort mit enger Zusammenarbeit zwischen Team und Familien. Wer hier arbeitet, gestaltet nicht nur Betreuung, sondern auch Gemeinschaft.
+  - type: announcement
+    enabled: true
+    title: Aktuell keine offenen Stellenangebote
+    text: Aktuell haben wir keine offenen Stellen zu besetzen. Aber schau doch einfach regelmäßig wieder rein oder überrasche uns mit einer Initiativbewerbung!
+  - type: announcement
+    enabled: false
+    title: Unsere Stellenangebote
+    text: '![Pädagogische Fachkraft gesucht](/media/Paedagogische_Fachkraft_(mwd)_gesucht_50.pdf)'
 ---

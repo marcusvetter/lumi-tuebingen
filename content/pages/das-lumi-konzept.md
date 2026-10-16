@@ -1,7 +1,11 @@
 ---
 order: 6
 title: Das LUMI-Konzept
-nav: null
+nav:
+  enabled: true
+  headline: Das LUMI-Konzept
+  subheadline: Wofür LUMI steht
+  color: blue
 sections:
   - type: textblock
     content: '# Pädagogik'

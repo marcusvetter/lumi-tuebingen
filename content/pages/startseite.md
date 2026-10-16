@@ -1,7 +1,11 @@
 ---
 order: 10
 title: Startseite
-nav: null
+nav:
+  enabled: true
+  headline: ''
+  subheadline: Das LUMI
+  color: blue
 sections:
   - type: textblock
     content: |-

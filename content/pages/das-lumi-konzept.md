@@ -63,6 +63,8 @@ sections:
     content: |-
       ![Lumi_team](/media/TeamBild_lowRes.jpg "Das Lumi Team")
 
+      Lerne das Team des LUMI kennen:
+
       - Lisa Rosenkranz
       - Anne Martin
       - Christine Böpple

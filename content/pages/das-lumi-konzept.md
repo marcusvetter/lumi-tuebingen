@@ -59,4 +59,16 @@ sections:
       ## Verpflegung
 
       Richard, unser Koch sorgt bei uns für frisch gekochtes, vegetarisches Mittagessen. Dabei achten wir auf Regionalität, Saisonalität und eine ausgewogene Ernährung der Kinder. Darüber hinaus haben die Kinder jederzeit die Möglichkeit, auch zwischendurch zu Trinken und Snacks zu bekommen.
+  - type: textblock
+    content: |-
+      ![Lumi_team](/media/TeamBild_lowRes.jpg "Das Lumi Team")
+
+      - Lisa Rosenkranz
+      - Anne Martin
+      - Christine Böpple
+      - Eve Fiedler
+      - Katrin Irmler
+      - Lydia Schmidt
+      - Ayse Öztürk
+      - Oskar Jassmann
 ---

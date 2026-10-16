@@ -12,6 +12,13 @@ sections:
       # Für Förderer & Spender
 
       LUMI ist eine gemeinnützige Elterninitiative mit einem klaren pädagogischen Profil und starker lokaler Verankerung. Unterstützung durch Förderinstitutionen, Unternehmen oder Einzelpersonen hilft dabei, unsere Räume, Naturorte und Bildungsangebote weiterzuentwickeln. Besonders wichtig sind für uns Projekte, die Kindern unmittelbare Erfahrungen mit Natur, Alltag, Bewegung und Gemeinschaft ermöglichen.
+  - type: announcement
+    enabled: true
+    title: 💛  LUMI unterstützen
+    text: |-
+      LUMI lebt vom Engagement der Eltern. Unterstützt uns gerne mit einer kleinen Spende über betterplace.org – vielen Dank!
+
+      [http://betterplace.org/de/organisations/54892](http://betterplace.org/de/organisations/54892)
   - type: textblock
     content: |-
       # Netzwerkpartner & Sozialraum

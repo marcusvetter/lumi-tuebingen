@@ -12,6 +12,14 @@ sections:
       # Verein
 
       Träger von LUMI ist der gemeinnützige Verein LUMI – Leben mit Kindern e.V. Als Elterninitiative lebt unsere Einrichtung von Gemeinschaft, Mitgestaltung und einer engen Zusammenarbeit zwischen Team und Familien. Die Mitgliedschaft im Verein gehört während der Betreuungszeit dazu. So entsteht ein Rahmen, in dem Eltern das Leben der Einrichtung aktiv mittragen können.
+
+      Der gemeinnützige Verein wurde im Juni 2006 gegründet und ist seit 2007 Träger der freien Jugendhilfe.Wir freuen uns über neue Fördermitglieder, die unsere Arbeit unterstützen. Spenden und Vereinsbeiträge sind steuerlich absetzbar.
+
+      ### Vorstand
+
+      - Alexander Wiethüchter
+      - Dorothea Baumann
+      - Daniela Schmalz
   - type: textblock
     content: |-
       # Elternaufgaben

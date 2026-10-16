@@ -1,10 +1,11 @@
 ---
-title: Der Tag im LUMI
 order: 1
+title: Der Tag im LUMI
 nav:
-  enabled: true
-  color: blue
+  enabled: false
+  headline: ''
   subheadline: Unser Tagesablauf & die LUMI Konzeption
+  color: blue
 sections:
   - type: textblock
     content: |-

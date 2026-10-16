@@ -2,9 +2,9 @@
 order: 9
 title: Dein Weg zu uns
 nav:
-  enabled: false
+  enabled: true
   headline: Dein Weg zu uns
-  subheadline: Wie ihr zu uns findet
+  subheadline: Werde Teil von LUMI
   color: blue
 sections:
   - type: textblock

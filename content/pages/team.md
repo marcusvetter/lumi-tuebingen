@@ -1,11 +1,11 @@
 ---
-title: Das LUMI-Team
 order: 3
+title: Das LUMI-Team
 nav:
-  enabled: true
-  color: orange
+  enabled: false
   headline: Das LUMI Team
   subheadline: Lerne das Team des LUMI kennen.
+  color: orange
 sections:
   - type: textblock
     content: |-

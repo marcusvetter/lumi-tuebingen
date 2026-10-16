@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 7
 title: Das LUMI-Konzept
 nav:
   enabled: true

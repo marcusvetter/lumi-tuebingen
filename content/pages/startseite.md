@@ -1,5 +1,5 @@
 ---
-order: 10
+order: 6
 title: Startseite
 nav:
   enabled: true

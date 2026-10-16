@@ -1,5 +1,5 @@
 ---
-order: 8
+order: 9
 title: Dein Weg zu uns
 nav:
   enabled: false

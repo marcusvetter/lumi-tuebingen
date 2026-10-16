@@ -65,6 +65,8 @@ sections:
       Richard, unser Koch sorgt bei uns für frisch gekochtes, vegetarisches Mittagessen. Dabei achten wir auf Regionalität, Saisonalität und eine ausgewogene Ernährung der Kinder. Darüber hinaus haben die Kinder jederzeit die Möglichkeit, auch zwischendurch zu Trinken und Snacks zu bekommen.
   - type: textblock
     content: |-
+      ## Das LUMI-Team
+
       ![Lumi_team](/media/TeamBild_lowRes.jpg "Das Lumi Team")
 
       Lerne das Team des LUMI kennen:

@@ -36,9 +36,13 @@ sections:
       - jüngere Kinder nach individuellem Rhythmus.
   - type: textblock
     content: |-
-      ## Eingewöhnung
+      ## Eingewöhnung und Elterngespräch
 
-      Eine sanfte Eingewöhnung ist uns sehr wichtig. Wir orientieren uns am **Berliner Eingewöhnungsmodell** und geben jedem Kind die Zeit, die es braucht, um Vertrauen zu fassen und sich sicher zu fühlen. In den ersten Tagen begleitet ein Elternteil das Kind als vertraute Bezugsperson. Danach erweitern wir die Zeit im LUMI schrittweise und in engem Austausch mit den Familien.
+      Eine sanfte und gute Eingewöhnung ist uns sehr wichtig. Wir orientieren uns am **Berliner Eingewöhnungsmodell** und geben jedem Kind die Zeit, die es braucht, um Vertrauen zu fassen und sich sicher zu fühlen. Wir verwenden viel Zeit darauf, euer Kind in kleinen Schritten in die Gruppe einzuführen und die Zeit bei uns langsam zu steigern. Das erleichtert eurem Kind das Ankommen und gibt auch euch ein besseres Gefühl, das Kind nicht mehr in "gänzlich fremde Hände" zu übergeben.
+
+      In der Regel dauert die Eingewöhnung vier bis sechs Wochen. Dann bleiben die meisten Kinder bis nach dem Mittagessen um 12:30 Uhr. Ab wann wir ein Kind nach der Eingewöhnung bei uns schlafen legen, hängt von der Befindlichkeit der jeweiligen Kinder sowie eurem Betreuungsbedarf ab.
+
+      Einmal im Jahr führen wir ein ausführliches Entwicklungsgespräch. Wir legen außerdem großen Wert auf kurze Gespräche zwischen Tür und Angel. Bei Bedarf erhöhen wir selbstverständlich die Frequenz der Gespräche.
   - type: textblock
     content: |-
       ## Räume & Natur

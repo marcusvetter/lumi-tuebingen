@@ -1,7 +1,11 @@
 ---
 order: 8
 title: Dein Weg zu uns
-nav: null
+nav:
+  enabled: false
+  headline: Dein Weg zu uns
+  subheadline: Wie ihr zu uns findet
+  color: blue
 sections:
   - type: textblock
     content: '# Für Eltern'

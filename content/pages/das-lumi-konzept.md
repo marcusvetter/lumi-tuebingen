@@ -4,7 +4,7 @@ title: Das LUMI-Konzept
 nav:
   enabled: true
   headline: Das LUMI-Konzept
-  subheadline: Wofür LUMI steht
+  subheadline: Was euch im LUMI erwartet
   color: yellow
 sections:
   - type: textblock
@@ -58,5 +58,5 @@ sections:
     content: |-
       ## Verpflegung
 
-      Richard, unser Koch sorgt bei uns für frisch gekochtes, vegetarisches Mittagessen. Dabei achten wir auf Regionalität, Saisonalität und eine ausgewogene Ernährung der Kinder. Darüber hinaus haben die Kinder jederzeit die Möglichkeit
+      Richard, unser Koch sorgt bei uns für frisch gekochtes, vegetarisches Mittagessen. Dabei achten wir auf Regionalität, Saisonalität und eine ausgewogene Ernährung der Kinder. Darüber hinaus haben die Kinder jederzeit die Möglichkeit, auch zwischendurch zu Trinken und Snacks zu bekommen.
 ---

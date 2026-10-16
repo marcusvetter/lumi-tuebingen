@@ -1,10 +1,11 @@
 ---
-title: Der Weg zu uns
 order: 2
+title: Der Weg zu uns
 nav:
-  enabled: true
-  color: yellow
+  enabled: false
+  headline: ''
   subheadline: Hier erfährst du, wie du Kontakt mit uns aufnehmen kannst.
+  color: yellow
 sections:
   - type: textblock
     content: |-

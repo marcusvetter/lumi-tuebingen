@@ -12,6 +12,11 @@ sections:
       ## Aktuelles
 
       Im LUMI erleben wir das Jahr gemeinsam – mit Festen, Ausflügen, Naturerlebnissen und vielen kleinen Alltagsmomenten. Hier geben wir gelegentlich Einblicke in das, was uns gerade beschäftigt.
+  - type: textblock
+    content: |-
+      Der Herbst ist da!
+
+      ![Schafe_am_Oesterberg](/media/signal-2026-10-17-09-48-21-814.jpg)
   - type: announcement
     enabled: false
     title: Einladung zur Infoveranstaltung

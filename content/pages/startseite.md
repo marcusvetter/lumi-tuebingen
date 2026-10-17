@@ -8,6 +8,8 @@ nav:
   color: blue
 sections:
   - type: textblock
+    content: '# Für einen starken Start ins Leben!'
+  - type: textblock
     content: |-
       ## Aktuelles
 

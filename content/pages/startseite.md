@@ -16,7 +16,7 @@ sections:
     content: |-
       Der Herbst ist da!
 
-      ![Schafe_am_Oesterberg](/media/signal-2026-10-17-09-48-21-814.jpg)
+      ![Schafe_am_Oesterberg](/media/signal-2026-10-17-09-48-21-814.jpg "Der Herbst ist da!")
   - type: announcement
     enabled: false
     title: Einladung zur Infoveranstaltung

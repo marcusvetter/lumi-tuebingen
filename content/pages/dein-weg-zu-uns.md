@@ -33,6 +33,15 @@ sections:
       Wir rufen dich zurück, sobald wir deine E-Mail erhalten haben.
   - type: textblock
     content: |-
+      ## Kontakt
+
+      LUMI - Leben mit Kindern e.V.\
+      Nürtingerstraße 21\
+      72074 Tübingen
+
+      E-Mail: [info@lumi-tuebingen.de](mailto:info@lumi-tuebingen.de)
+  - type: textblock
+    content: |-
       # Für neue Mitarbeitende
 
       Arbeiten im LUMI bedeutet, Kinder in einer kleinen Gruppe achtsam und alltagsnah zu begleiten. Freies Spiel, Naturerfahrungen, verlässliche Beziehungen und ein ruhiger, klar strukturierter Alltag prägen unsere Arbeit. Als Elterninitiative ist LUMI außerdem ein Ort mit enger Zusammenarbeit zwischen Team und Familien. Wer hier arbeitet, gestaltet nicht nur Betreuung, sondern auch Gemeinschaft.

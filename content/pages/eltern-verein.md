@@ -9,7 +9,7 @@ nav:
 sections:
   - type: textblock
     content: |-
-      # Verein
+      ## Verein
 
       Träger von LUMI ist der gemeinnützige Verein LUMI – Leben mit Kindern e.V. Als Elterninitiative lebt unsere Einrichtung von Gemeinschaft, Mitgestaltung und einer engen Zusammenarbeit zwischen Team und Familien. Die Mitgliedschaft im Verein gehört während der Betreuungszeit dazu. So entsteht ein Rahmen, in dem Eltern das Leben der Einrichtung aktiv mittragen können.
 
@@ -22,7 +22,7 @@ sections:
       - Daniela Schmalz
   - type: textblock
     content: |-
-      # Elternaufgaben
+      ## Elternaufgaben
 
       LUMI ist eine Elterninitiative. Das bedeutet: Familien gestalten die Einrichtung aktiv mit. Jede Familie übernimmt feste Aufgabenbereiche, zum Beispiel rund um Organisation, Kommunikation, Einkäufe, Wartung oder das Gütle. So entsteht eine verlässliche Gemeinschaft, die den Alltag der Kinder mitträgt und die Einrichtung gemeinsam gestaltet.
 

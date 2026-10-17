@@ -43,4 +43,13 @@ sections:
       - **Gebühren:** Es fallen die üblichen Betreuungsgebühren des Tübinger Raums an (siehe [hier](https://www.tuebingen.de/23417.html))
       - **Träger**: Elterninitiative LUMI – Leben mit Kindern e.V., Vereinsbeitrag: 25 Euro pro Jahr / ganze Familie 
       - **Unterstützen:** Wir freuen uns über jede kleine Spende [hier](https://www.betterplace.org/de/organisations/54892-spielgruppe-lumi-leben-mit-kindern-e-v)
+  - type: textblock
+    content: |-
+      ## Kontakt
+
+      LUMI - Leben mit Kindern e.V.\
+      Nürtingerstraße 21\
+      72074 Tübingen
+
+      E-Mail: [info@lumi-tuebingen.de](mailto:info@lumi-tuebingen.de)
 ---

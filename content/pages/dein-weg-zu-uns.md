@@ -11,8 +11,6 @@ sections:
     content: |-
       ## Für Eltern
 
-      Hier finden Eltern die wichtigsten Informationen auf dem Weg zu einem Platz im LUMI – von der ersten Kontaktaufnahme über die Eingewöhnung bis zu Rahmenbedingungen wie Öffnungszeiten, Beiträgen und Schließzeiten. So soll der Einstieg in unsere Einrichtung möglichst transparent und gut planbar sein.
-
       Hast du  Interesse daran, dein Kind von uns betreuen zu lassen? Das freut uns sehr! Hier sind die Spielregeln:
 
       **Grundvoraussetzung:** Du musst bei der Tübinger _Zentrale Anmeldestelle Kinderbetreuung_ (ZAK) angemeldet sein. Die Anmeldung ist Pflicht für alle Kitas und Betreuungsangebote in Tübingen. Du kannst dich hier online anmelden: [https://www.tuebingen.de/zak](https://www.tuebingen.de/zak)

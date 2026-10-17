@@ -1,9 +1,9 @@
 ---
 order: 6
-title: Herzlich Willkommen im LUMI
+title: Herzlich Willkommen im LUMI - Für einen starken Start ins Leben!
 nav:
   enabled: true
-  headline: ''
+  headline: Herzlich Willkommen im LUMI
   subheadline: Für einen starken Start ins Leben!
   color: blue
 sections:

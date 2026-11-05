@@ -21,7 +21,7 @@ sections:
        Anmeldungen bitte per Mail an Anne Martin: [info@lumi-tuebingen.de](mailto:info@lumi-tuebingen.de)
   - type: textblock
     content: |-
-      Der Herbst ist da!
+      ### Der Herbst ist da!
 
       ![Schafe_am_Oesterberg](/media/signal-2026-10-17-09-48-21-814.jpg "Der Herbst ist da!")
   - type: announcement

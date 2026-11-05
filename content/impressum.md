@@ -8,21 +8,23 @@ sections:
       LUMI - Leben mit Kindern e.V.
 
       #### Postanschrift
+
       Nürtingerstraße 21\
       72074 Tübingen
 
       #### Kontakt
+
       Büro: 07071 / 770 43 70\
       Gruppe: 07071 / 770 43 71\
       Mobil: 0172 / 979 44 82\
-      E-Mail: info at lumi-tuebingen punkt de
+      E-Mail: [info@lumi-tuebingen.de](mailto:info@lumi-tuebingen.de)
 
       #### Vertreten durch
 
       1. Vorstand:\
       Alexander Wiethüchter
+      2. Vorstand:\\
 
-      2. Vorstand:\
       Dorothea Baumann
 
       #### Eingetragen am

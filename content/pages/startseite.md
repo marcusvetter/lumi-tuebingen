@@ -12,17 +12,18 @@ sections:
       ## Aktuelles
 
       Im LUMI erleben wir das Jahr gemeinsam – mit Festen, Ausflügen, Naturerlebnissen und vielen kleinen Alltagsmomenten. Hier geben wir gelegentlich Einblicke in das, was uns gerade beschäftigt.
+  - type: announcement
+    enabled: true
+    title: Einladung zur Infoveranstaltung
+    text: |-
+      Am 14**. Januar 2027** um **15:30 Uhr** laden wir alle interessierten Familien herzlich zu unserer Infoveranstaltung ein. Die Veranstaltung dauert ungefähr eine Stunde. Wir freuen uns auf einen schönen Austausch und ein erstes Kennenlernen im LUMI. 
+
+       Anmeldungen bitte per Mail an Anne Martin: [leitung@lumi-tuebingen.de](mailto:leitung@lumi-tuebingen.de)
   - type: textblock
     content: |-
       Der Herbst ist da!
 
       ![Schafe_am_Oesterberg](/media/signal-2026-10-17-09-48-21-814.jpg "Der Herbst ist da!")
-  - type: announcement
-    enabled: false
-    title: Einladung zur Infoveranstaltung
-    text: |-
-      Am **22. Januar 2026** um **15:30 Uhr** laden wir alle interessierten Familien herzlich zu unserer Infoveranstaltung ein. Die Veranstaltung dauert ungefähr eine Stunde. Wir freuen uns auf einen schönen Austausch und ein erstes Kennenlernen im LUMI.
-      Anmeldungen bitte per E-Mail an: [leitung@lumi-tuebingen.de](mailto:leitung@lumi-tuebingen.de)
   - type: announcement
     enabled: false
     title: Pädagogische Fachkraft gesucht

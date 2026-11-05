@@ -10,9 +10,9 @@ sections:
     enabled: true
     title: Einladung zur Infoveranstaltung
     text: |-
-      Am 14**. Januar 2027** um **15:30 Uhr** laden wir alle interessierten Familien herzlich zu unserer Infoveranstaltung ein. Die Veranstaltung dauert ungefähr eine Stunde. Wir freuen uns auf einen schönen Austausch und ein erstes Kennenlernen im LUMI. 
+      Am **14. Januar 2027** um **15:30 Uhr** laden wir alle interessierten Familien herzlich zu unserer Infoveranstaltung ein. Die Veranstaltung dauert ungefähr eine Stunde. Wir freuen uns auf einen schönen Austausch und ein erstes Kennenlernen im LUMI. 
 
-       Anmeldungen bitte per Mail an Anne Martin: [leitung@lumi-tuebingen.de](mailto:leitung@lumi-tuebingen.de)
+       Anmeldungen bitte per Mail an Anne Martin: [info@lumi-tuebingen.de](mailto:info@lumi-tuebingen.de)
   - type: announcement
     enabled: false
     title: Pädagogische Fachkraft gesucht
